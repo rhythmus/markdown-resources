@@ -7,18 +7,18 @@
 
 Markdown is said to be “invented” by John Gruber, who, in any case, worked on it together with [Aaron Swartz](http://en.wikipedia.org/wiki/Aaron_Swartz) (1986–2013). Since the release of “original” Markdown in 2004, the language has been “forked” many times over. Today, there are several “[extensions](http://en.wikipedia.org/wiki/Markdown_extensions)” and dialects in circulation. Many more apps have been created (for the Web, OSX, iOS, Android, Windows).
 
-Depending on the specific Markdown implementation (parser) those apps use under the hood, they support one or more Markdown dialects or ”flavors”. It is not always obvious to end users, which apps (and backend scripts) can do what exactly. This collection of resources tries to clear up some of that confusion.
+Depending on the specific Markdown implementation (parser) those apps use under the hood, they support one or more Markdown dialects or “flavors”. It is not always obvious to end users which apps (and backend scripts) can do what exactly. This collection of resources tries to clear up some of that confusion.
 
 
 ## This repo
 
-At the moment the repository has lists for Markdown editors (apps with a graphical user interface), dialects and extensions, and implementations.
+At the moment the repository has lists for Markdown editors (apps with a graphical user interface), dialects/extensions, and implementations:
 
 - [Markdown Apps](markdown-apps.yml)
 - [Markdown Dialects](markdown-dialects.yml)
 - [Markdown Implementations](markdown-implementations.yml)
 
-The lists are formatted using [YAML](http://en.wikipedia.org/wiki/YAML). Not unlike Markdown, YAML is a lightweight markup language with a syntax that is intended to be easily readable by  humans, all while formally structured for machine processing.
+The lists are formatted using [YAML](http://en.wikipedia.org/wiki/YAML). Not unlike Markdown, YAML is a lightweight markup language with a syntax that is intended to be easily readable by  humans, all while formally structured for machine processing. But unlike Markdown, YAML is more suited to author, edit, and store non-sequential data.
 
 Feel free to grab the `.yml` files, [convert them into `.json`](http://nodeca.github.io/js-yaml/), `.xml` or whatever suits your needs, and import them into a searchable data store. Enjoy!
 
