@@ -1,0 +1,85 @@
+# Markdown Resources: Apps
+# ========================
+# Copyright 2013 © Dr Wouter Soudan @ Rhythmus.be
+# Licensed under a Creative Commons Attribution 3.0 License.
+#
+# Document address: https://github.com/rhythmus/markdown-resources/markdown-apps.yml
+# Last revision: 2013-11-10 22:38 GMT+1
+#
+# The following list is far from exhaustive: it’s a (personal,
+# and hence, subjective) curated selection of the “best”
+# Markdown editor applications. Other listings can be found here:
+# - http://mac.appstorm.net/tag/markdown/
+# - http://mashable.com/2013/06/24/markdown-tools/
+---
+Dillinger:
+  platform: browser
+  website: http://dillinger.io
+  supported dialects:
+    - Github Flavored Markdown
+  opensource: yes
+  repo: https://github.com/joemccann/dillinger
+
+Markdown Here:
+  platform: browser
+  website: http://markdown-here.com
+  supported dialects:
+  opensource: yes
+  repo: https://github.com/adam-p/markdown-here
+
+Texts:
+  platform: OSX, Windows
+  website: http://www.texts.io/
+  supported dialects: many
+
+iA Writer:
+  platform: OSX, iOS
+  website: http://www.iawriter.com
+  supported dialects:
+    - WriteDown
+
+MultiMarkdown Composer:
+  platform: OSX
+  website: http://multimarkdown.com
+  supported dialects:
+    - MultiMarkdown
+
+Minimalist Online Markdown Editor:
+  platform: browser
+  website: http://markdown.pioul.fr/
+
+PageDown-Bootstrap:
+  platform: browser
+  website: http://samwillis.co.uk/pagedown-bootstrap/demo/browser/demo.html
+  opensource: yes
+  repo: https://github.com/samwillis/pagedown-bootstrap
+
+Marked App:
+  platform: OSX
+
+Marked2:
+  platform: OSX
+
+Mou:
+  platform: OSX
+  website: http://mouapp.com
+
+Showdown:
+  website: http://www.showdown.im
+
+Markable:
+  website: http://markable.in
+
+Sublime Text:
+  platform: OSX, Linux, Windows
+
+Ulysses III:
+  platform:
+
+Erato:
+  platform:
+
+Calca:
+  platform:
+
+...

@@ -1,0 +1,116 @@
+# Markdown Resources: Implementations
+# ===================================
+# Copyright 2013 © Dr Wouter Soudan @ Rhythmus.be
+# Licensed under a Creative Commons Attribution 3.0 License.
+#
+# Document address: https://github.com/rhythmus/markdown-resources/markdown-implementations.yml
+# Last revision: 2013-11-10 22:38 GMT+1
+#
+# The following list is far from exhaustive: it’s a (personal,
+# and hence, subjective) curated selection of the “best”
+# Markdown implementations (parser, converters, e.a.).
+# Search on GitHub for more:
+# - https://github.com/search?q=markdown&nwo=fletcher#2Fpeg-multimarkdown&search_target=global&ref=cmdform
+# Also have a look at the list maintained (?) by the W3C Markdown Community Group:
+# - http://www.w3.org/community/markdown/wiki/MarkdownImplementations
+---
+Markdown.pl:
+  description: Original reference implementation
+  type: converter to (X)HTML
+  output: xhtml
+  supported dialects:
+     - plain Markdown
+  customizable: no
+  developers:
+    - name: John Gruber
+      website: http://daringfireball.net/
+  website: http://daringfireball.net/projects/markdown/
+  language: Perl
+  parser type: hardcoded regexes
+  maintenance: abandoned
+
+Pandoc:
+  description: Universal document converter. If you need to convert files from one markup format into another, pandoc is your swiss-army knife. Pandoc can convert documents from markdown, reStructuredText, textile, HTML, DocBook, LaTeX, MediaWiki markup, OPML, or Haddock markup.
+  output: xhtml, docx, odt, odl, ePUB, DocBook, OPML, LaTeX, ConTeXt, pdf, Markdown, reStructuredText, AsciiDoc, MediaWiki markup, Emacs Org-Mode, Textile
+  developers:
+    - name: John MacFarlane
+      GitHub: https://github.com/jgm/
+      website: http://johnmacfarlane.net
+  repo: https://github.com/jgm/pandoc
+  website: http://johnmacfarlane.net/pandoc/
+  language: Haskell
+  parser type: PEG grammar
+  maintenance: active
+
+Texts.js:
+  description: JavaScript library (for Node and for browser) that implements conversion between various “rich” text formats. It does the conversion via universal text model (TextJSON, see below) that is rich enough for most of the texts.
+  type: Node.js module
+  output: xhtml, XeLaTeX, Pandoc JSON
+  developers:
+    - name: Fedor Sheremetyev
+      GitHub: https://github.com/sheremetyev/
+      Twitter: "@shrmtv"
+  repo: https://github.com/sheremetyev/texts.js
+  language: Javascript
+  parser type: PEG grammar
+
+mdown-parse-pegjs:
+  description: Parsing Markdown with PegJS
+  developers:
+    - name: Ulric Wilfred (aka Anton Kotenko)
+      GitHub: https://github.com/shamansir
+      Twitter: "@shaman_sir"
+  repo: https://github.com/shamansir/mdown-parse-pegjs
+  language: Javascript
+  parser type: PEG grammar
+
+peg-markdown:
+  supported dialects:
+     - plain Markdown
+  developers:
+    - name: John MacFarlane
+      GitHub: https://github.com/jgm/
+      website: http://johnmacfarlane.net/
+  repo: https://github.com/jgm/peg-markdown
+  language: C
+  parser type: PEG grammar
+
+peg-multimarkdown:
+  supported dialects:
+     - MultiMarkdown
+  developers:
+    - name: Fletcher T. Penney
+      GitHub: https://github.com/fletcher/
+      website: http://fletcherpenney.net/
+  repo: https://github.com/fletcher/peg-multimarkdown
+  language: C
+  parser type: PEG grammar
+  maintenance: deprecated
+
+markdown-js:
+  supported dialects:
+     - many
+  customizable: yes
+  developers:
+    - name: Dominic Baggott
+      GitHub: https://github.com/evilstreak
+      website: http://www.dominicbaggott.com
+  repo: https://github.com/evilstreak/markdown-js
+  language: Javascript
+  parser type: PEG grammar
+  maintenance: active
+
+marked:
+  supported dialects:
+     - plain Markdown
+     - Github Flavored Markdown
+  developers:
+    - name: Christopher Jeffrey
+      GitHub: https://github.com/chjj
+      website: https://dilated.io/
+  repo: https://github.com/chjj/marked
+  language: Javascript
+  parser type: hardcoded regexes
+  maintenance: active
+
+...

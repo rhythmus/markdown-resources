@@ -1,0 +1,108 @@
+# Markdown Resources: Dialects
+# ============================
+# Copyright 2013 © Dr Wouter Soudan @ Rhythmus.be
+# Licensed under a Creative Commons Attribution 3.0 License.
+#
+# Document address: https://github.com/rhythmus/markdown-resources/markdown-dialects.yml
+# Last revision: 2013-11-10 22:37 GMT+1
+#
+# The following list is far from exhaustive: it’s a (personal,
+# and hence, subjective) curated selection of the most common
+# Markdown derivative syntax agreements (“dialects”). See also:
+# - http://en.wikipedia.org/wiki/Markdown_extensions
+---
+Markdown (orginal):
+  type: html authoring
+  website: http://daringfireball.net/projects/markdown/
+  spec: http://daringfireball.net/projects/markdown/syntax
+  supported nodes: &plain-markdown
+    - headers (six levels)
+    - paragraphs
+    - unordered lists
+    - ordered lists
+    - nested lists (?)
+    - blockquotes
+    - block code
+    - inline code
+    - inline format emphasize
+    - inline format strong
+    - auto links
+    - inline links
+    - referenced links
+    - inline images
+    - block level images
+    - referenced images
+    - horizontal rule
+  implementations: Perl
+
+GitHub Flavored Markdown (GFM):
+  type: extension
+  website: https://help.github.com/articles/github-flavored-markdown
+  supported nodes:
+    - *plain-markdown
+    - fenced code blocks
+    - syntax highlighting
+    - task Lists
+    - emoji autocomplete
+
+Stack Overflow Markdown flavor:
+  cheat sheet: http://stackoverflow.com/editing-help
+
+Pandoc Markdown:
+  type: all-purpose document authoring
+  website: http://johnmacfarlane.net/pandoc
+  implementations: Haskell
+
+MultiMarkdown:
+  type: all-purpose document authoring
+  website: http://fletcherpenney.net/multimarkdown/
+  specs: http://fletcher.github.io/peg-multimarkdown/mmd-manual.pdf
+  cheat sheet: https://rawgithub.com/fletcher/human-markdown-reference/master/index.html
+  supported nodes:
+    - *plain-markdown
+    - footnotes
+    - tables
+    - citations and bibliography (using BibTeX)
+    - math
+    - automatic cross-referencing ability
+    - smart typography (multiple languages)
+    - image attributes
+    - captions (tables and images)
+    - definition lists
+    - glossary entries (LaTeX only)
+    - document metadata (title, author, etc.)
+  implementations: C
+
+Markdown Extra:
+  type: extension
+  implementations: PHP
+  supported nodes:
+    - *plain-markdown
+    - inline html
+    - Markdown inside html blocks
+    - header ID attribute
+    - fenced code blocks
+    - tables
+    - definition Lists
+    - footnotes
+    - abbreviations
+    - emphasis
+    - backslash escapes
+
+Maruku:
+  type: extension
+  website: http://maruku.rubyforge.org/maruku.html (dead link)
+  implementations: Ruby
+
+kramdown:
+  type: extension
+
+Fountain:
+  type: domain specific
+  website: http://fountain.io/
+  description: Syntax convention for scripts writing.
+
+CriticMarkup:
+  type: domain specific
+  website: http://criticmarkup.com/
+  description: “Plain Text Editing Markup for Humans.” Syntax convention for tracking changes (edits) in (Markdownese formatted) documents
