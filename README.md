@@ -12,11 +12,12 @@ Depending on the specific Markdown implementation (parser) those apps use under 
 
 ## This repo
 
-At the moment the repository has lists for Markdown editors (apps with a graphical user interface), dialects/extensions, and implementations:
+At the moment the repository has lists for Markdown editors (apps with a graphical user interface), dialects/extensions, implementations, and stylesheets (themes in `css`):
 
 - [Markdown Apps](markdown-apps.yml)
 - [Markdown Dialects](markdown-dialects.yml)
 - [Markdown Implementations](markdown-implementations.yml)
+- [Markdown Stylesheets](markdown-stylesheets.yml)
 
 The lists are formatted using [YAML](http://en.wikipedia.org/wiki/YAML). Not unlike Markdown, YAML is a lightweight markup language with a syntax that is intended to be easily readable by  humans, all while formally structured for machine processing. But unlike Markdown, YAML is more suited to author, edit, and store non-sequential data.
 
