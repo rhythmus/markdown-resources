@@ -113,4 +113,17 @@ marked:
   parser type: hardcoded regexes
   maintenance: active
 
+Discount:
+  supported dialects:
+     - plain Markdown
+  developers:
+    - name: David Parsons
+      GitHub: https://github.com/Orc
+      website: http://weblog.pell.portland.or.us/~orc/
+  website: http://www.pell.portland.or.us/~orc/Code/discount/
+  repo: https://github.com/Orc/discount
+  language: C
+  parser type:
+  maintenance:
+
 ...
