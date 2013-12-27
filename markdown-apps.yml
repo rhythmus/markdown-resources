@@ -4,7 +4,7 @@
 # Licensed under a Creative Commons Attribution 3.0 License.
 #
 # Document address: https://github.com/rhythmus/markdown-resources/markdown-apps.yml
-# Last revision: 2013-12-27 16:10 GMT+1
+# Last revision: 2013-12-27 21:20 GMT+1
 #
 # The following list is far from exhaustive: it’s a (personal,
 # and hence, subjective) curated selection of the “best”
@@ -118,6 +118,16 @@ Marked2:
   platform: OSX
   website: http://marked2app.com/
 
+Erato:
+  platform: OSX
+  website: http://9muses.se/erato/
+  supported dialects:
+    - Github Flavored Markdown
+
+Calca:
+  platform: OSX, iOS
+  website: http://calca.io/
+
 Kobito:
   platform: OSX
   website: http://kobito.qiita.com/en
@@ -147,11 +157,5 @@ UberWriter:
 ReText:
   platform: Linux
   website: http://sourceforge.net/projects/retext/
-
-Erato:
-  platform:
-
-Calca:
-  platform:
 
 ...
