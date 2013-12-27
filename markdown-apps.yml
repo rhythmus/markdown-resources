@@ -4,7 +4,7 @@
 # Licensed under a Creative Commons Attribution 3.0 License.
 #
 # Document address: https://github.com/rhythmus/markdown-resources/markdown-apps.yml
-# Last revision: 2013-12-27 11:55 GMT+1
+# Last revision: 2013-12-27 16:10 GMT+1
 #
 # The following list is far from exhaustive: it’s a (personal,
 # and hence, subjective) curated selection of the “best”
@@ -12,45 +12,24 @@
 # - http://mac.appstorm.net/tag/markdown/
 # - http://mashable.com/2013/06/24/markdown-tools/
 ---
-Dillinger:
-  platform: browser
-  website: http://dillinger.io
-  supported dialects:
-    - Github Flavored Markdown
-  opensource: yes
-  repo: https://github.com/joemccann/dillinger
-
-Markdown Here:
-  platform: browser
-  website: http://markdown-here.com
-  supported dialects:
-  opensource: yes
-  repo: https://github.com/adam-p/markdown-here
-
 StackEdit:
   platform: browser
   website: https://stackedit.io/
+  repo: https://github.com/benweet/stackedit/
   supported dialects:
     - Github Flavored Markdown
-  opensource: yes
-  repo: https://github.com/benweet/stackedit/
 
-Texts:
-  platform: OSX, Windows
-  website: http://www.texts.io/
-  supported dialects: many
-
-iA Writer:
-  platform: OSX, iOS
-  website: http://www.iawriter.com
+Dillinger:
+  platform: browser
+  website: http://dillinger.io/
+  repo: https://github.com/joemccann/dillinger
   supported dialects:
-    - WriteDown
+    - Github Flavored Markdown
 
-MultiMarkdown Composer:
-  platform: OSX
-  website: http://multimarkdown.com
-  supported dialects:
-    - MultiMarkdown
+Markdown Here:
+  platform: browser
+  website: http://markdown-here.com/
+  repo: https://github.com/adam-p/markdown-here
 
 Minimalist Online Markdown Editor:
   platform: browser
@@ -59,14 +38,11 @@ Minimalist Online Markdown Editor:
 PageDown-Bootstrap:
   platform: browser
   website: http://samwillis.co.uk/pagedown-bootstrap/demo/browser/demo.html
-  opensource: yes
   repo: https://github.com/samwillis/pagedown-bootstrap
 
-LightPaper:
-  platform: OSX
-  website: http://clockworkengine.com/lightpaper-mac/
-  supported dialects:
-    - Github Flavored Markdown (partim!)
+Markable:
+  platform: browser
+  website: http://markable.in/
 
 HarooPad:
   platform: OSX, Linux, Windows
@@ -75,24 +51,44 @@ HarooPad:
     - Github Flavored Markdown
     - custom extensions
 
+Texts:
+  platform: OSX, Windows
+  website: http://www.texts.io/
+  supported dialects: many
+
+iA Writer:
+  platform: OSX, iOS
+  website: http://www.iawriter.com/
+  supported dialects:
+    - WriteDown
+
+Sublime Text:
+  platform: OSX, Linux, Windows
+
+MultiMarkdown Composer:
+  platform: OSX
+  website: http://multimarkdown.com/
+  supported dialects:
+    - MultiMarkdown
+
+LightPaper:
+  platform: OSX
+  website: http://clockworkengine.com/lightpaper-mac/
+  supported dialects:
+    - Github Flavored Markdown (partim!)
+
+Mou:
+  platform: OSX
+  website: http://mouapp.com
+
 Marked App:
   platform: OSX
 
 Marked2:
   platform: OSX
 
-Mou:
-  platform: OSX
-  website: http://mouapp.com
-
 Showdown:
-  website: http://www.showdown.im
-
-Markable:
-  website: http://markable.in
-
-Sublime Text:
-  platform: OSX, Linux, Windows
+  website: http://www.showdown.im/ (down!)
 
 Ulysses III:
   platform:
@@ -102,5 +98,11 @@ Erato:
 
 Calca:
   platform:
+
+MarkdownEditor:
+  platform: OSX (?)
+  website: http://keshiki.net/markdown-editor/ (down!)
+  repo: https://github.com/bodhi/MarkdownEditor
+  supported dialects:
 
 ...
