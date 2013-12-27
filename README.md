@@ -23,6 +23,9 @@ The lists are formatted using [YAML](http://en.wikipedia.org/wiki/YAML). Not unl
 
 Feel free to grab the `.yml` files, [convert them into `.json`](http://nodeca.github.io/js-yaml/), `.xml` or whatever suits your needs, and import them into a searchable data store. Enjoy!
 
+### Wiki
+
+If you want to quickly add a Markdown editor app that is not on the list already, you can do so on the [wiki page](https://github.com/rhythmus/markdown-resources/wiki/Markdown-Apps).
 
 ## Discussion
 
