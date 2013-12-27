@@ -26,6 +26,10 @@ Dillinger:
   supported dialects:
     - Github Flavored Markdown
 
+Socrates:
+  platform: browser
+  website: http://socrates.io/
+
 Markdown Here:
   platform: browser
   website: http://markdown-here.com/
@@ -43,6 +47,27 @@ PageDown-Bootstrap:
 Markable:
   platform: browser
   website: http://markable.in/
+
+gOrge:
+  platform: browser
+  website: http://gorgeapp.appspot.com/
+
+IPython Notebook:
+  platform: browser
+  website: http://ipython.org/notebook.html
+  repo: https://github.com/ipython/ipython
+
+Showdown:
+  platform: browser
+  website: http://www.showdown.im/ (down!)
+
+Markgiu:
+  platform: node-webkit
+  repo: https://github.com/bianchimro/markgiu
+
+Docular!:
+  platform: node-webkit
+  repo: https://github.com/danielking/docular
 
 HarooPad:
   platform: OSX, Linux, Windows
@@ -81,28 +106,52 @@ Mou:
   platform: OSX
   website: http://mouapp.com
 
+Ulysses III:
+  platform: OSX
+  website: http://www.ulyssesapp.com/
+
 Marked App:
   platform: OSX
+  website: http://markedapp.com/
 
 Marked2:
   platform: OSX
+  website: http://marked2app.com/
 
-Showdown:
-  website: http://www.showdown.im/ (down!)
+Kobito:
+  platform: OSX
+  website: http://kobito.qiita.com/en
 
-Ulysses III:
-  platform:
+MarkdownEditor:
+  platform: OSX (?)
+  website: http://keshiki.net/markdown-editor/ (down!)
+  repo: https://github.com/bodhi/MarkdownEditor
+
+MarkdownPad:
+  platform: Windows
+  website: http://markdownpad.com/
+
+MarkdownPad Pro:
+  platform: Windows
+  website: https://markdownpad.com/buy.html
+  supported dialects:
+    - Github Flavored Markdown
+    - Markdown Extra
+
+UberWriter:
+  platform: Linux
+  website: http://uberwriter.wolfvollprecht.de/
+  supported dialects:
+    - Pandoc extensions
+
+ReText:
+  platform: Linux
+  website: http://sourceforge.net/projects/retext/
 
 Erato:
   platform:
 
 Calca:
   platform:
-
-MarkdownEditor:
-  platform: OSX (?)
-  website: http://keshiki.net/markdown-editor/ (down!)
-  repo: https://github.com/bodhi/MarkdownEditor
-  supported dialects:
 
 ...
