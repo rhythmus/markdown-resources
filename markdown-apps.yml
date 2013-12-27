@@ -4,7 +4,7 @@
 # Licensed under a Creative Commons Attribution 3.0 License.
 #
 # Document address: https://github.com/rhythmus/markdown-resources/markdown-apps.yml
-# Last revision: 2013-11-10 22:38 GMT+1
+# Last revision: 2013-12-27 11:55 GMT+1
 #
 # The following list is far from exhaustive: it’s a (personal,
 # and hence, subjective) curated selection of the “best”
@@ -26,6 +26,14 @@ Markdown Here:
   supported dialects:
   opensource: yes
   repo: https://github.com/adam-p/markdown-here
+
+StackEdit:
+  platform: browser
+  website: https://stackedit.io/
+  supported dialects:
+    - Github Flavored Markdown
+  opensource: yes
+  repo: https://github.com/benweet/stackedit/
 
 Texts:
   platform: OSX, Windows
@@ -53,6 +61,19 @@ PageDown-Bootstrap:
   website: http://samwillis.co.uk/pagedown-bootstrap/demo/browser/demo.html
   opensource: yes
   repo: https://github.com/samwillis/pagedown-bootstrap
+
+LightPaper:
+  platform: OSX
+  website: http://clockworkengine.com/lightpaper-mac/
+  supported dialects:
+    - Github Flavored Markdown (partim!)
+
+HarooPad:
+  platform: OSX, Linux, Windows
+  website: http://pad.haroopress.com/
+  supported dialects:
+    - Github Flavored Markdown
+    - custom extensions
 
 Marked App:
   platform: OSX
