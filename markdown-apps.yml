@@ -101,6 +101,7 @@ LightPaper:
   website: http://clockworkengine.com/lightpaper-mac/
   supported dialects:
     - Github Flavored Markdown (partim!)
+    - MultiMarkdown
 
 Mou:
   platform: OSX
