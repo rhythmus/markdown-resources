@@ -4,7 +4,7 @@
 # Licensed under a Creative Commons Attribution 3.0 License.
 #
 # Document address: https://github.com/rhythmus/markdown-resources/markdown-apps.yml
-# Last revision: 2013-12-27 21:20 GMT+1
+# Last revision: 2013-12-28 14:00 GMT+1
 #
 # The following list is far from exhaustive: it’s a (personal,
 # and hence, subjective) curated selection of the “best”
@@ -12,6 +12,21 @@
 # - http://mac.appstorm.net/tag/markdown/
 # - http://mashable.com/2013/06/24/markdown-tools/
 ---
+NoteHub:
+  platform: browser
+  website: http://www.notehub.org/
+  repo: https://github.com/chmllr/NoteHub
+  parser: Pagedown.js
+  supported dialects:
+    - plain Markdown
+
+Prose.io:
+  platform: browser
+  website: http://prose.io/
+  repo: https://github.com/prose/prose
+  supported dialects:
+    - Github Flavored Markdown
+
 StackEdit:
   platform: browser
   website: https://stackedit.io/
