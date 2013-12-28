@@ -126,4 +126,12 @@ Discount:
   parser type:
   maintenance:
 
+Pagedown:
+  supported dialects:
+     - plain Markdown
+  repo:
+    - https://code.google.com/p/pagedown
+    - https://github.com/ujifgc/pagedown
+  language: Javascript
+
 ...
