@@ -1,0 +1,92 @@
+# Markdown Resources: People
+# ==========================
+# Copyright 2013 © Dr Wouter Soudan @ Rhythmus.be
+# Licensed under a Creative Commons Attribution 3.0 License.
+#
+# Document address: https://github.com/rhythmus/markdown-resources/markdown-people.yml
+# Last revision: 2013-12-28 12:55 GMT+1
+---
+John Gruber:
+	role: pioneer
+	noteworthy:
+		- acknowledged as the inventor of Markdown
+		- is said to have abandoned further development of Markdown
+
+Aaron Swartz:
+	role: pioneer
+	noteworthy:
+		- co-creator (with John Gruber) of original Markdown
+		- deceased, January 11, 2013
+	contact:
+		Wikipedia: http://en.wikipedia.org/wiki/Aaron_Swartz
+
+John MacFarlane:
+	role: expert
+	noteworthy:
+		- prolific creator of Pandoc and several Markdown parsers
+	contact:
+		website: http://johnmacfarlane.net
+	  GitHub: https://github.com/jgm
+
+Fletcher T. Penney:
+	role: expert
+	noteworthy:
+		- creator of MultiMarkdown
+	contact:
+    GitHub: https://github.com/fletcher
+    website: http://fletcherpenney.net
+
+Christopher Jeffrey:
+	role: expert
+	noteworthy:
+		- creator of Marked.js
+	contact:
+    GitHub: https://github.com/chjj
+
+Fedor Sheremetyev:
+	role: expert
+	noteworthy:
+		- creator of Texts.js, a PEG grammar based Javascript implementation
+	contact:
+		GitHub: https://github.com/sheremetyev
+		Twitter: @shrmtv
+
+Ulric Wilfred (aka Anton Kotenko):
+	role: expert
+	noteworthy:
+		- creator of a PEG grammar based Javascript implementation
+	contact:
+		GitHub: https://github.com/shamansir
+    Twitter: @shaman_sir
+
+Dominic Baggott:
+	role: expert
+	noteworthy:
+		- creator of Markdown-js
+	contact:
+    website: http://www.dominicbaggott.com
+		GitHub: https://github.com/evilstreak
+
+Jeff Atwood:
+	role: evangelist
+	noteworthy:
+		- creator of StackOverflow.com
+		- Markdown support on Stack Overflow
+		- influential blog posts on the future of Markdown
+	contact:
+    website: http://www.codinghorror.com/blog/2004/02/about-me.html
+		GitHub: https://github.com/coding-horror
+		Twitter: @codinghorror
+		Wikipedia: http://en.wikipedia.org/wiki/Jeff_Atwood
+
+Tom Preston-Werner:
+	role: evangelist
+	noteworthy:
+		- co-founder and CEO of GitHub.com
+		- fostered the use of Markdown-formatted README.md’s on GitHub
+	contact:
+    website: http://tom.preston-werner.com
+		GitHub: https://github.com/mojombo
+		Twitter: @mojombo
+
+...

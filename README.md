@@ -31,21 +31,6 @@ If you want to quickly add a Markdown editor app that is not on the list already
 
 There’s a [Markdown Community Page on GitHub](http://markdown.github.io/), but it seems it never got further than initial enthusiasm. There’s also an official [W3C Markdown Community Group](http://www.w3.org/community/markdown/), but that too seems abandoned. The actual discussion on Markdown takes place at the [Markdown mailing list](http://six.pairlist.net/mailman/listinfo/markdown-discuss) — and on private blogs…
 
-
-## Important people
-
-The said “inventor”, John Gruber, has abandoned Markdown, and his co-creator, Aaron Swartz sadly has passed away earlier this year. In my humble impression, presently there are but a few true Markdown specialists. They include:
-
-- **John MacFarlane** @jgm (prolific creator of Pandoc and several Markdown parsers)
-- **Fletcher T. Penney** @fletcher (creator of MultiMarkdown)
-- **Christopher Jeffrey** @chjj (creator of Marked.js)
-- **Fedor Sheremetyev** @sheremetyev (creator of Texts.js, a PEG grammar based Javascript implementation)
-- **Ulric Wilfred** (aka Anton Kotenko) @shamansir (creator of a PEG grammar based Javascript implementation)
-- **Dominic Baggott** @evilstreak (creator of Markdown-js)
-- **Jeff Atwood** @coding-horror (creator of Stack Overflow)
-- …
-
-
 ---
 
 [^1]: This document (`README.md`) is itself formatted using the GitHub Flavored Markdown dialect. The specs are [here](https://help.github.com/articles/github-flavored-markdown). The repo is kept at <https://github.com/rhythmus/markdown-resources>.
