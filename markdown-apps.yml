@@ -49,6 +49,12 @@ Markdown Here:
   platform: browser
   website: http://markdown-here.com/
   repo: https://github.com/adam-p/markdown-here
+  note: Browser plugin (Chrome, Firefox, Safari, Thunderbird) for e-mail writing.
+
+Let.ter:
+  platform: OSX
+  website: http://theletterapp.com/
+  note: Markdown e-mail client for focussed writing.
 
 Minimalist Online Markdown Editor:
   platform: browser
