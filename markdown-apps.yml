@@ -1,10 +1,10 @@
 # Markdown Resources: Apps
 # ========================
-# Copyright 2013 © Dr Wouter Soudan @ Rhythmus.be
+# Copyright 2013–14 © Dr Wouter Soudan @ Rhythmus.be
 # Licensed under a Creative Commons Attribution 3.0 License.
 #
 # Document address: https://github.com/rhythmus/markdown-resources/markdown-apps.yml
-# Last revision: 2013-12-28 14:00 GMT+1
+# Last revision: 2014-01-14 23:25 GMT+1
 #
 # The following list is far from exhaustive: it’s a (personal,
 # and hence, subjective) curated selection of the “best”
@@ -201,5 +201,9 @@ Elements:
 WriteDown:
   platform: iOS
   website: http://vinhnx.github.io/writedown-site
+
+InkMark:
+  platform: iOS (iPad)
+  website: http://inkmarkapp.com/
 
 ...
