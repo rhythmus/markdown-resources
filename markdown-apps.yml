@@ -13,6 +13,13 @@
 # - http://mashable.com/2013/06/24/markdown-tools/
 # - http://pastebin.com/j7Pjq1QT
 ---
+Atom.io:
+  platform: node-webkit
+  website: https://atom.io/
+  repo: https://github.com/atom/markdown-preview
+  note: https://news.ycombinator.com/item?id=7302941
+  note: This is going to be huge…
+
 NoteHub:
   platform: browser
   website: http://www.notehub.org/
