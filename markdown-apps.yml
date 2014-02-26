@@ -4,13 +4,14 @@
 # Licensed under a Creative Commons Attribution 3.0 License.
 #
 # Document address: https://github.com/rhythmus/markdown-resources/markdown-apps.yml
-# Last revision: 2014-01-14 23:25 GMT+1
+# Last revision: 2014-02-26 09:25 GMT+1
 #
 # The following list is far from exhaustive: it’s a (personal,
 # and hence, subjective) curated selection of the “best”
 # Markdown editor applications. Other listings can be found here:
 # - http://mac.appstorm.net/tag/markdown/
 # - http://mashable.com/2013/06/24/markdown-tools/
+# - http://pastebin.com/j7Pjq1QT
 ---
 NoteHub:
   platform: browser
@@ -41,6 +42,11 @@ Dillinger:
   supported dialects:
     - Github Flavored Markdown
 
+Pen:
+  platform: browser
+  website: http://sofish.github.io/pen/
+  repo: https://github.com/sofish/pen
+
 Socrates:
   platform: browser
   website: http://socrates.io/
@@ -68,6 +74,18 @@ PageDown-Bootstrap:
 Markable:
   platform: browser
   website: http://markable.in/
+
+Grande.js:
+  platform: browser
+  website: http://mattduvall.com/grande.js/
+  repo: https://github.com/mduvall/grande.js
+  supported dialects:
+    - plain Markdown (some)
+
+Mango:
+  platform: browser
+  website: http://mangomarkdown.com/
+  note: From the creators of Folding Text.
 
 gOrge:
   platform: browser
@@ -144,6 +162,12 @@ Marked App:
 Marked2:
   platform: OSX
   website: http://marked2app.com/
+
+Folding Text:
+  platform: OSX
+  website: http://www.foldingtext.com/
+  repo: https://github.com/FoldingText/plugins
+  Note: From the creators of Mango.
 
 Erato:
   platform: OSX
