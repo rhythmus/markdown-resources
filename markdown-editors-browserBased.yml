@@ -1,0 +1,111 @@
+# Markdown Resources: Editors: browser-based
+# ==========================================
+# Copyright 2013–14 © Dr Wouter Soudan @ Rhythmus.be
+# Licensed under a Creative Commons Attribution 3.0 License.
+#
+# Document address: https://github.com/rhythmus/markdown-resources/markdown-editors-browserBased.yml
+# Last revision: 2014-03-09 17:20 GMT+1
+#
+# The following list is far from exhaustive: it’s a (personal,
+# and hence, subjective) curated selection of the “best”
+# Markdown editor applications. Other listings can be found here:
+# - http://mac.appstorm.net/tag/markdown/
+# - http://mashable.com/2013/06/24/markdown-tools/
+# - http://pastebin.com/j7Pjq1QT
+---
+Dillinger:
+  platform: browser
+  website: http://dillinger.io/
+  repo: https://github.com/joemccann/dillinger
+  supported dialects:
+    - Github Flavored Markdown
+
+Docular!:
+  platform: node-webkit
+  repo: https://github.com/danielking/docular
+
+EpicEditor:
+  platform: browser
+  website: http://epiceditor.com/
+  repo: https://github.com/OscarGodson/EpicEditor
+
+gOrge:
+  platform: browser
+  website: http://gorgeapp.appspot.com/
+
+Grande.js:
+  platform: browser
+  website: http://mattduvall.com/grande.js/
+  repo: https://github.com/mduvall/grande.js
+  supported dialects:
+    - plain Markdown (some)
+
+IPython Notebook:
+  platform: browser
+  website: http://ipython.org/notebook.html
+  repo: https://github.com/ipython/ipython
+
+Mango:
+  platform: browser
+  website: http://mangomarkdown.com/
+  note: From the creators of Folding Text.
+
+Markable:
+  platform: browser
+  website: http://markable.in/
+
+Markdown Here:
+  platform: browser
+  website: http://markdown-here.com/
+  repo: https://github.com/adam-p/markdown-here
+  note: Browser plugin (Chrome, Firefox, Safari, Thunderbird) for e-mail writing.
+
+Markgiu:
+  platform: node-webkit
+  repo: https://github.com/bianchimro/markgiu
+
+Minimalist Online Markdown Editor:
+  platform: browser
+  website: http://markdown.pioul.fr/
+
+NoteHub:
+  platform: browser
+  website: http://www.notehub.org/
+  repo: https://github.com/chmllr/NoteHub
+  parser: Pagedown.js
+  supported dialects:
+    - plain Markdown
+
+PageDown-Bootstrap:
+  platform: browser
+  website: http://samwillis.co.uk/pagedown-bootstrap/demo/browser/demo.html
+  repo: https://github.com/samwillis/pagedown-bootstrap
+
+Pen:
+  platform: browser
+  website: http://sofish.github.io/pen/
+  repo: https://github.com/sofish/pen
+
+Prose.io:
+  platform: browser
+  website: http://prose.io/
+  repo: https://github.com/prose/prose
+  supported dialects:
+    - Github Flavored Markdown
+
+Showdown:
+  platform: browser
+  website: http://www.showdown.im/ (down!)
+
+Socrates:
+  platform: browser
+  website: http://socrates.io/
+
+StackEdit:
+  platform: browser
+  website: https://stackedit.io/
+  repo: https://github.com/benweet/stackedit/
+  supported dialects:
+    - Github Flavored Markdown
+
+...
