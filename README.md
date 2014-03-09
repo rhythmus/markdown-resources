@@ -14,7 +14,8 @@ Depending on the specific Markdown implementation (parser) those apps use under 
 
 At the moment the repository has lists for Markdown editors (apps with a graphical user interface), dialects/extensions, implementations, and stylesheets (themes in `css`):
 
-- [Markdown Apps](markdown-apps.yml)
+- [Markdown Editors: native apps](markdown-editors-nativeApps.yml)
+- [Markdown Editors: browser-based](markdown-editors-browserBased.yml)
 - [Markdown Dialects](markdown-dialects.yml)
 - [Markdown Implementations](markdown-implementations.yml)
 - [Markdown People](markdown-people.yml)
