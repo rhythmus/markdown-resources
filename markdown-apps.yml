@@ -107,6 +107,11 @@ Showdown:
   platform: browser
   website: http://www.showdown.im/ (down!)
 
+EpicEditor:
+  platform: browser
+  website: http://epiceditor.com/
+  repo: https://github.com/OscarGodson/EpicEditor
+
 Markgiu:
   platform: node-webkit
   repo: https://github.com/bianchimro/markgiu
