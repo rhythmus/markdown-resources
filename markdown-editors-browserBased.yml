@@ -4,7 +4,7 @@
 # Licensed under a Creative Commons Attribution 3.0 License.
 #
 # Document address: https://github.com/rhythmus/markdown-resources/markdown-editors-browserBased.yml
-# Last revision: 2014-03-09 17:20 GMT+1
+# Last revision: 2014-05-01 00:05 GMT+1
 #
 # The following list is far from exhaustive: it’s a (personal,
 # and hence, subjective) curated selection of the “best”
@@ -20,14 +20,35 @@ Dillinger:
   supported dialects:
     - Github Flavored Markdown
 
+Dingus:
+  about: Online demo editor by John Gruber
+  platform: browser
+  website: http://daringfireball.net/projects/markdown/dingus
+  supported dialects:
+    - plain Markdown
+
+Draft:
+  about: collaborative writing with version control
+  platform: browser
+  webiste: https://draftin.com/
+
 Docular!:
   platform: node-webkit
   repo: https://github.com/danielking/docular
+
+Ditto:
+  about: markdown code documentation system
+  website: http://chutsu.github.io/ditto/
+  repo: https://github.com/chutsu/ditto/
 
 EpicEditor:
   platform: browser
   website: http://epiceditor.com/
   repo: https://github.com/OscarGodson/EpicEditor
+
+Fuck Yeah Markdown:
+  about: converts any URL’s contents from html to markdown
+  website: http://fuckyeahmarkdown.com/
 
 gOrge:
   platform: browser
@@ -60,6 +81,10 @@ Markdown Here:
   repo: https://github.com/adam-p/markdown-here
   note: Browser plugin (Chrome, Firefox, Safari, Thunderbird) for e-mail writing.
 
+Markdown Live Preview:
+  platform: browser
+  website: http://markdownlivepreview.com/
+
 Markgiu:
   platform: node-webkit
   repo: https://github.com/bianchimro/markgiu
@@ -69,6 +94,7 @@ Minimalist Online Markdown Editor:
   website: http://markdown.pioul.fr/
 
 NoteHub:
+  about: anonymous pastebin
   platform: browser
   website: http://www.notehub.org/
   repo: https://github.com/chmllr/NoteHub
@@ -81,6 +107,11 @@ PageDown-Bootstrap:
   website: http://samwillis.co.uk/pagedown-bootstrap/demo/browser/demo.html
   repo: https://github.com/samwillis/pagedown-bootstrap
 
+peg:
+  about: anonymous pastebin
+  platform: browser
+  website: http://peg.gd/1
+
 Pen:
   platform: browser
   website: http://sofish.github.io/pen/
@@ -92,6 +123,11 @@ Prose.io:
   repo: https://github.com/prose/prose
   supported dialects:
     - Github Flavored Markdown
+
+Scribble:
+  about: Markdown wikis
+  platform: browser
+  webiste: http://www.tryscribble.com/
 
 Showdown:
   platform: browser
