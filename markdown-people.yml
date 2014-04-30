@@ -1,10 +1,10 @@
 # Markdown Resources: People
 # ==========================
-# Copyright 2013 © Dr Wouter Soudan @ Rhythmus.be
+# Copyright 2013–14 © Dr Wouter Soudan @ Rhythmus.be
 # Licensed under a Creative Commons Attribution 3.0 License.
 #
 # Document address: https://github.com/rhythmus/markdown-resources/markdown-people.yml
-# Last revision: 2013-12-28 14:00 GMT+1
+# Last revision: 2014-05-01 00:05 GMT+1
 ---
 John Gruber:
   role: pioneer
@@ -82,11 +82,17 @@ Jeff Atwood:
 Tom Preston-Werner:
   role: evangelist
   noteworthy:
-    - co-founder and CEO of GitHub.com
+    - co-founder, former CEO and ex-employee of GitHub.com
     - fostered the use of Markdown-formatted README.md’s on GitHub
   contact:
     website: http://tom.preston-werner.com
     GitHub: https://github.com/mojombo
     Twitter: @mojombo
 
+Dustin Curtis:
+  role: evangelist
+  noteworthy:
+    - designer of the 𝗠⬇ mark
+  contact:
+    website: http://dcurt.is/the-markdown-mark
 ...
