@@ -50,6 +50,15 @@ There’s not much room for discussion here on Github, and the present repo is j
 
 There’s a [Markdown Community Page on GitHub](http://markdown.github.io/), but it seems it never got further than some initial enthusiasm. There’s also an official [W3C Markdown Community Group](http://www.w3.org/community/markdown/), but that too seems abandoned. The actual discussion on Markdown takes place at the [Markdown mailing list](http://six.pairlist.net/mailman/listinfo/markdown-discuss), and on private blogs.
 
+
+## Other useful Markdown resources
+
+While this entire repository is made up of links to useful Markdown resources, the following stand apart as they too are curated collections of links to other Markdown resources, and/or provide more context.
+
+- <http://whatismarkdown.com/>
+- <http://markdowntutorial.com/>
+- <http://johnmacfarlane.net/babelmark2/faq.html> – Testing and comparison suite for Markdown implementations, by John MacFarlane.
+
 ---
 
 [^1]: This document (`README.md`) is itself formatted using the GitHub Flavored Markdown dialect. The specs are [here](https://help.github.com/articles/github-flavored-markdown). The repo is kept at <https://github.com/rhythmus/markdown-resources>.
