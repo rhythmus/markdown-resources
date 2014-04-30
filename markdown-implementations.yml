@@ -1,10 +1,10 @@
 # Markdown Resources: Implementations
 # ===================================
-# Copyright 2013 © Dr Wouter Soudan @ Rhythmus.be
+# Copyright 2013–14 © Dr Wouter Soudan @ Rhythmus.be
 # Licensed under a Creative Commons Attribution 3.0 License.
 #
 # Document address: https://github.com/rhythmus/markdown-resources/markdown-implementations.yml
-# Last revision: 2013-11-10 22:38 GMT+1
+# Last revision: 2014-05-01 00:05 GMT+1
 #
 # The following list is far from exhaustive: it’s a (personal,
 # and hence, subjective) curated selection of the “best”
@@ -13,6 +13,8 @@
 # - https://github.com/search?q=markdown&nwo=fletcher#2Fpeg-multimarkdown&search_target=global&ref=cmdform
 # Also have a look at the list maintained (?) by the W3C Markdown Community Group:
 # - http://www.w3.org/community/markdown/wiki/MarkdownImplementations
+# And here for Javascript implementations and wrappers:
+# - http://www.plugingeek.com/categories/markdown-parsers-javascript
 ---
 Markdown.pl:
   description: Original reference implementation
@@ -132,6 +134,14 @@ Pagedown:
   repo:
     - https://code.google.com/p/pagedown
     - https://github.com/ujifgc/pagedown
+  language: Javascript
+
+Showdown:
+  supported dialects:
+     - plain Markdown
+  repo:
+    - https://github.com/coreyti/showdown
+    - http://wayback.archive.org/web/*/http://attacklab.net/showdown
   language: Javascript
 
 ...
