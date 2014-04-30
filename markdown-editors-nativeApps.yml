@@ -4,7 +4,7 @@
 # Licensed under a Creative Commons Attribution 3.0 License.
 #
 # Document address: https://github.com/rhythmus/markdown-resources/markdown-editors-nativeApps.yml
-# Last revision: 2014-03-09 17:20 GMT+1
+# Last revision: 2014-05-01 00:05 GMT+1
 #
 # The following list is far from exhaustive: it’s a (personal,
 # and hence, subjective) curated selection of the “best”
@@ -21,6 +21,12 @@ Atom.io:
 Calca:
   platform: OSX, iOS
   website: http://calca.io/
+
+Cheddar:
+  about: To do app
+  platform: iOS (iPhone)
+  website: https://cheddarapp.com/text
+  note: Markdown syntax support for inline formatting only
 
 Editorial:
   platform: iOS (iPad)
@@ -107,6 +113,11 @@ MultiMarkdown Composer:
   website: http://multimarkdown.com/
   supported dialects:
     - MultiMarkdown
+
+nvAlt:
+  about: note taking app
+  platform: OSX
+  website: http://brettterpstra.com/projects/nvalt/
 
 ReText:
   platform: Linux
