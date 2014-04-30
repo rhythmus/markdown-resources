@@ -1,10 +1,10 @@
 # Markdown Resources: Stylesheets
 # ===============================
-# Copyright 2013 © Dr Wouter Soudan @ Rhythmus.be
+# Copyright 2013–14 © Dr Wouter Soudan @ Rhythmus.be
 # Licensed under a Creative Commons Attribution 3.0 License.
 #
 # Document address: https://github.com/rhythmus/markdown-resources/markdown-stylesheets.yml
-# Last revision: 2013-11-27 15:30 GMT+1
+# Last revision: 2014-05-01 00:05 GMT+1
 #
 # The following list is far from exhaustive: it’s a (personal,
 # and hence, subjective) curated selection of the “best”
@@ -42,5 +42,11 @@ Markdown Resume Builder:
   demo: https://raw.github.com/there4/markdown-resume/master/resume/sample.md
   repo: https://github.com/there4/markdown-resume
   implementation: php
+
+Strapdown.js:
+  about: client side markdown processing on staticly served web pages
+  website: http://strapdownjs.com/
+  repo: https://github.com/arturadib/strapdown
+  parser: Marked.js
 
 ...
