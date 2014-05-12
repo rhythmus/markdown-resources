@@ -4,7 +4,7 @@
 # Licensed under a Creative Commons Attribution 3.0 License.
 #
 # Document address: https://github.com/rhythmus/markdown-resources/markdown-editors-nativeApps.yml
-# Last revision: 2014-05-01 00:05 GMT+1
+# Last revision: 2014-05-12 17:40 GMT+1
 #
 # The following list is far from exhaustive: it’s a (personal,
 # and hence, subjective) curated selection of the “best”
@@ -12,6 +12,7 @@
 # - http://mac.appstorm.net/tag/markdown/
 # - http://mashable.com/2013/06/24/markdown-tools/
 # - http://pastebin.com/j7Pjq1QT
+# - http://brettterpstra.com/ios-text-editors/
 ---
 Atom.io:
   platform: node-webkit
@@ -83,10 +84,6 @@ Macchiato:
 Marked App:
   platform: OSX
   website: http://markedapp.com/
-
-Marked2:
-  platform: OSX
-  website: http://marked2app.com/
 
 MarkdownEditor:
   platform: OSX (?)

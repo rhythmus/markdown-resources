@@ -15,7 +15,7 @@ Depending on the specific Markdown implementation (parser) those apps use under 
 
 ## This repo
 
-At the moment the repository has lists for Markdown editors (apps with a graphical user interface), dialects/extensions, implementations, and stylesheets (themes in `css`):
+At the moment the repository has structured lists for Markdown editors (apps with a graphical user interface), dialects/extensions, implementations, stylesheets (themes in `css`), and a simple list for various other Markdown related tools:
 
 - [Markdown Editors: native apps](markdown-editors-nativeApps.yml)
 - [Markdown Editors: browser-based](markdown-editors-browserBased.yml)
@@ -23,13 +23,14 @@ At the moment the repository has lists for Markdown editors (apps with a graphic
 - [Markdown Implementations](markdown-implementations.yml)
 - [Markdown People](markdown-people.yml)
 - [Markdown Stylesheets](markdown-stylesheets.yml)
+- [Various Markdown Tools](markdown-tools.md)
 
 Feel free to grab the `.yml` files, [convert them into `.json`](http://nodeca.github.io/js-yaml/), `.xml` or whatever suits your needs, and import them into a searchable data store. Enjoy!
 
 
 ### On the use of YAML
 
-The lists in this repo are formatted using [YAML](http://en.wikipedia.org/wiki/YAML). Not unlike Markdown, YAML is a lightweight markup language with a syntax that is intended to be easily readable by  humans, all while formally structured for machine processing. But unlike Markdown, YAML is more suited to author, edit, and store non-sequential data.
+The structured lists in this repo are formatted using [YAML](http://en.wikipedia.org/wiki/YAML). Not unlike Markdown, YAML is a lightweight markup language with a syntax that is intended to be easily readable by  humans, all while formally structured for machine processing. But unlike Markdown, YAML is more suited to author, edit, and store non-sequential data.
 
 YAML and Markdown only seem to be competing languages, but they are not mutually exclusive. Indeed, some Markdown editors and implementations even support YAML: while the document’s body is formatted in Markdown syntax, its front matter (metadata) is structured using YAML syntax. Just like documents can exist without front matter, and be formatted in Markdown exclusively, so can documents consist out of nothing else than ~~(meta)~~data and be completely formatted in YAML.
 
@@ -61,6 +62,7 @@ While this entire repository is made up of links to useful Markdown resources, t
 - <http://whatismarkdown.com/>
 - <http://markdowntutorial.com/>
 - <http://johnmacfarlane.net/babelmark2/faq.html> – Testing and comparison suite for Markdown implementations, by John MacFarlane.
+- <https://www.penflip.com/MmmmJoel/writing-some-things>
 
 ---
 

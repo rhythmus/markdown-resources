@@ -4,7 +4,7 @@
 # Licensed under a Creative Commons Attribution 3.0 License.
 #
 # Document address: https://github.com/rhythmus/markdown-resources/markdown-people.yml
-# Last revision: 2014-05-01 00:05 GMT+1
+# Last revision: 2014-05-12 17:40 GMT+1
 ---
 John Gruber:
   role: pioneer
@@ -95,4 +95,11 @@ Dustin Curtis:
     - designer of the 𝗠⬇ mark
   contact:
     website: http://dcurt.is/the-markdown-mark
+
+Brett Terpstra:
+  role: expert
+  noteworthy:
+    - creator of Marked2 app and various (sometimes experimental) Markdown tools
+  contact:
+    website: http://brettterpstra.com/
 ...
