@@ -4,7 +4,7 @@
 # Licensed under a Creative Commons Attribution 3.0 License.
 #
 # Document address: https://github.com/rhythmus/markdown-resources/markdown-editors-browserBased.yml
-# Last revision: 2014-05-12 17:40 GMT+1
+# Last revision: 2014-05-13 12:50 GMT+1
 #
 # The following list is far from exhaustive: it’s a (personal,
 # and hence, subjective) curated selection of the “best”
@@ -12,6 +12,7 @@
 # - http://mac.appstorm.net/tag/markdown/
 # - http://mashable.com/2013/06/24/markdown-tools/
 # - http://pastebin.com/j7Pjq1QT
+# - https://github.com/search?q=markdown
 ---
 Dillinger:
   platform: browser
@@ -36,12 +37,28 @@ EpicEditor:
   website: http://epiceditor.com/
   repo: https://github.com/OscarGodson/EpicEditor
 
+Escrito:
+  platform: browser
+  website: http://escrito.herokuapp.com/
+  repo: https://github.com/dmfrancisco/escrito
+
 Grande.js:
   platform: browser
   website: http://mattduvall.com/grande.js/
   repo: https://github.com/mduvall/grande.js
   supported dialects:
     - plain Markdown (some)
+
+jQuery Markdown editor:
+  platform: browser
+  about: “Simple textarea controls for the markdown syntax”
+  website: http://dev.digitalnature.eu/javascript/jQuery-Markdown-editor/
+  repo: https://github.com/digitalnature/MarkdownEditor
+
+Live (GitHub-Flavored) Markdown Editor:
+  platform: browser
+  website: http://jbt.github.io/markdown-editor
+  repo: https://github.com/jbt/markdown-editor
 
 Mango:
   platform: browser
@@ -59,6 +76,12 @@ Markdown Live Preview:
 Markgiu:
   platform: node-webkit
   repo: https://github.com/bianchimro/markgiu
+
+Markx:
+  platform: browser
+  about: “Markdown editor specifically designed for academic and scientific authoring. It highlights several advantages of Markdown (plain-text, multiple format conversion, easy version control) while still supplying the basic features which are a must for academic publications (citations, math rendering, layouts).”
+  repo: https://github.com/yoavram/markx
+  website: http://markx.herokuapp.com/
 
 Minimalist Online Markdown Editor:
   platform: browser
@@ -93,6 +116,12 @@ Prose.io:
   repo: https://github.com/prose/prose
   supported dialects:
     - Github Flavored Markdown
+
+Rover Editor:
+  platform: browser
+  about: “Rover is a prototype of a simple HTML5 based text editor that supports Markdown syntax highlighting and uses Dropbox for storage.“best”
+  website: http://rover.konstruktors.com/
+  repo: https://github.com/kasparsd/rover-editor
 
 Showdown:
   platform: browser

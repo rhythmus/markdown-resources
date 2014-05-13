@@ -68,11 +68,13 @@ _Some day…_
 - [Gist.io](http://gist.io/) (Python; [repo](https://github.com/idan/gistio)) — Client-side markdown processing.
 - [Jist.in](http://jist.in/) (Javascript; [repo](https://github.com/zhuzhuor/jist/)) — Client-side markdown (GFM) processing ([marked.js](https://github.com/chjj/marked) parser), multiple `.md` files, custom css.
 - [Mkdown.com](http://www.mkdown.com/8485599) (Ruby; [repo](https://github.com/jack7890/mkdown)) – Server-side pre-compilation, serves static html, hence no Javascript needed client side. Supports public and privat gists.
+- [GitPrint.com](http://gitprint.com/) (Javascript; [repo](https://github.com/adamburmister/gitprint.com)) – Render Github markdown documents for printing.
 
 ### Self-hosted static site generators
 - Apache handler (php; [repo](https://github.com/sminnee/markdown-handler)) – View `.md` named files more prettily on your webserver.
 - Brog (Go; [repo](https://github.com/aybabtme/brog)) –
 Deploy a collection of .md files, in a blog structure; server compiles, serves html, watches the blog path and reloads/recompiles Markdown and Templates when they change.
+- [Calepin](http://calepin.co/) (Javascript & Python; [repo](https://github.com/jokull/calepin)) – Gets Markdown files from Dropbox, converts into blog posts, generates an Atom feed.
 - [Contentify](http://thyb.github.io/contentify) ([repo](https://github.com/thyb/contentify/)) – Collaborative content manager in realtime over Github and Github Pages.
 - Lanyon (Go; [repo](https://github.com/mkaz/lanyon)) — Simple web server, which reads directories of markdown files and converts them to HTML and serves.
 - More [here](http://staticsitegenerators.net/), [here](http://staticgen.com/), and [here](https://gist.github.com/davatron5000/2254924); most of them take a pile of Markdown files as the input…
