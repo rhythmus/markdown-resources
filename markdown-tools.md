@@ -26,14 +26,21 @@ Last revision: 2014-05-12 17:40 GMT+1
 ### MD → html (native)
 - [Marked2](http://marked2app.com) (OSX) – The famous dedicated Markdown preview app for the Mac; to be used in pair with any Markdown editor.
 
-### MD → html (client side)
+### MD → html (client-side)
 - [Strapdown.js](http://strapdownjs.com) ([repo](https://github.com/arturadib/strapdown)) – Uses Marked.js parser.
 
-### Html → md (client side)
+### Html → md (client-side)
 - [reMarked.js](http://leeoniya.github.io/reMarked.js) ([repo](https://github.com/leeoniya/reMarked.js)) – “The ultimate goal is integration with existing WYSIWYG html editors (eg: Redactor, TinyMCE, CKeditor, Loki, CLeditor, [[and Quill](https://github.com/quilljs/quill/issues/74)]) to produce Markdown output. There are currently no WYSIWYG editors for markdown, only WYSIWYM, which still require knowledge of markdown syntax and its many quirky flavors.”
+- [to-markdown.js](http://domchristie.github.io/to-markdown/) ([repo](https://github.com/domchristie/to-markdown))
 
-### MD ↔ html (client side)
-_Some day…_
+### MD ↔ html (client-side WYSIWYG Markdown editor)
+
+[_Some day…_](https://github.com/quilljs/quill/issues/74#issuecomment-4294222)
+
+- [Demarcate.js](http://will-hart.github.io/demarcate.js/) ([repo](https://github.com/will-hart/demarcate.js))
+- [lepture/editor](http://lab.lepture.com/editor/) ([repo](https://github.com/lepture/editor)) (uses CodeMirror)
+- [sofish/pen](http://sofish.github.io/pen/) ([repo](https://github.com/sofish/pen))
+- [Hallo](http://hallojs.org/demo/markdown/) ([repo](https://github.com/bergie/hallo))
 
 
 ## Editing
