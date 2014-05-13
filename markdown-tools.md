@@ -13,6 +13,13 @@ Last revision: 2014-05-12 17:40 GMT+1
 
 ## Preview raw Markdown with style
 
+Dedicated stylesheets, specifically designed to make up html that was output from Markdown, are [listed separately](markdown-stylesheets.yml) (in YAML format). Low-level parsers doing MD → html conversion are [listed separately](markdown-implementations.yml), too. Going the other way around (html → MD), there’s of course [Pandoc](http://johnmacfarlane.net/pandoc/) (which does both, and much more), and these two:
+
+- [reMarked.js](http://leeoniya.github.io/reMarked.js) ([repo](https://github.com/leeoniya/reMarked.js)) – “The ultimate goal is integration with existing WYSIWYG html editors (eg: Redactor, TinyMCE, CKeditor, Loki, CLeditor, [[and Quill](https://github.com/quilljs/quill/issues/74)]) to produce Markdown output. There are currently no WYSIWYG editors for markdown, only WYSIWYM, which still require knowledge of markdown syntax and its many quirky flavors.”
+- [to-markdown.js](http://domchristie.github.io/to-markdown/) ([repo](https://github.com/domchristie/to-markdown))
+
+Listed below are applications (with user interfaces), which use one or more of the above scripts, libraries, and other dependencies.
+
 ### Browser extensions
 - [Markdown Here](http://markdown-here.com) ([Chrome](https://chrome.google.com/webstore/detail/markdown-here), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/markdown-here), [Safari](https://s3.amazonaws.com/markdown-here/markdown-here.safariextz), [Thunderbird](https://addons.mozilla.org/en-US/thunderbird/addon/markdown-here/)) ([repo](https://github.com/adam-p/markdown-here)) – Targetted at previewing and editing (formatting) email, but hijacks any `<textarea>` or `contentEditable` element as well. Table support (GFM).
 - [Markdown Preview](https://chrome.google.com/webstore/detail/markdown-preview) (Chrome) ([repo](https://github.com/borismus/markdown-preview)) – Preview local and remote `.md`|`.markdown` files.
@@ -20,27 +27,24 @@ Last revision: 2014-05-12 17:40 GMT+1
 - [Markdown Viewer](https://chrome.google.com/webstore/detail/markdown-viewer) (Chrome) – Outline (table of contents), table support (GFM), auto reload local file on change.
 - More in the [Chrome Web Store](https://www.google.com/search?q=chrome+extension+markdown)…
 
-### Convert any web page into markdown
-- [FuckYeahMarkdown.com](http://fuckyeahmarkdown.com/) — Converts any URL’s contents (using the [Readability parser API](https://www.readability.com/developers/api)) from html to markdown.
-
 ### MD → html (native)
-- [Marked2](http://marked2app.com) (OSX) – The famous dedicated Markdown preview app for the Mac; to be used in pair with any Markdown editor.
+- [Marked2](http://marked2app.com) (OSX) – The famous dedicated Markdown preview app for the Mac; to be used in pair with [any Markdown editor](markdown-editors-nativeApps.yml).
 
-### MD → html (client-side)
+### MD → html (web)
 - [Strapdown.js](http://strapdownjs.com) ([repo](https://github.com/arturadib/strapdown)) – Uses Marked.js parser.
 
-### Html → md (client-side)
-- [reMarked.js](http://leeoniya.github.io/reMarked.js) ([repo](https://github.com/leeoniya/reMarked.js)) – “The ultimate goal is integration with existing WYSIWYG html editors (eg: Redactor, TinyMCE, CKeditor, Loki, CLeditor, [[and Quill](https://github.com/quilljs/quill/issues/74)]) to produce Markdown output. There are currently no WYSIWYG editors for markdown, only WYSIWYM, which still require knowledge of markdown syntax and its many quirky flavors.”
-- [to-markdown.js](http://domchristie.github.io/to-markdown/) ([repo](https://github.com/domchristie/to-markdown))
+### Html → md
+- [FuckYeahMarkdown.com](http://fuckyeahmarkdown.com/) — Converts any URL’s contents (using the [Readability parser API](https://www.readability.com/developers/api)) from html to markdown.
 
-### MD ↔ html (client-side WYSIWYG Markdown editor)
 
-[_Some day…_](https://github.com/quilljs/quill/issues/74#issuecomment-4294222)
+### MD ↔ html (browser-based WYSIWYG Markdown editor)
+
+[_Some day…_](https://github.com/quilljs/quill/issues/74#issuecomment-42942223)
 
 - [Demarcate.js](http://will-hart.github.io/demarcate.js/) ([repo](https://github.com/will-hart/demarcate.js))
 - [lepture/editor](http://lab.lepture.com/editor/) ([repo](https://github.com/lepture/editor)) (uses CodeMirror)
 - [sofish/pen](http://sofish.github.io/pen/) ([repo](https://github.com/sofish/pen))
-- [Hallo](http://hallojs.org/demo/markdown/) ([repo](https://github.com/bergie/hallo))
+- [Hallo.js](http://hallojs.org/demo/markdown/) ([repo](https://github.com/bergie/hallo))
 
 
 ## Editing
