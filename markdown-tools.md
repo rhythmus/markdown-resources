@@ -5,7 +5,7 @@ Copyright 2013–14 © Dr Wouter Soudan @ Rhythmus.be
 Licensed under a Creative Commons Attribution 3.0 License.
 
 Document address: https://github.com/rhythmus/markdown-resources/markdown-tools.md
-Last revision: 2014-05-12 17:40 GMT+1
+Last revision: 2014-05-15 12:50 GMT+1
 -->
 
 # Various Markdown Tools
@@ -45,7 +45,7 @@ Listed below are applications (with user interfaces), which use one or more of t
 - [lepture/editor](http://lab.lepture.com/editor/) ([repo](https://github.com/lepture/editor)) (uses CodeMirror)
 - [sofish/pen](http://sofish.github.io/pen/) ([repo](https://github.com/sofish/pen))
 - [Hallo.js](http://hallojs.org/demo/markdown/) ([repo](https://github.com/bergie/hallo))
-
+- [md-wysiwyg](http://md-wysiwyg.sourceforge.net/) (python; [demo](http://md-wysiwyg.sourceforge.net/cgi-bin/cgi_wysiwyg_test.py/)  — Simple html editor that outputs Markdown.
 
 ## Editing
 
@@ -87,7 +87,8 @@ Listed below are applications (with user interfaces), which use one or more of t
 Deploy a collection of .md files, in a blog structure; server compiles, serves html, watches the blog path and reloads/recompiles Markdown and Templates when they change.
 - [Calepin](http://calepin.co/) (Javascript & Python; [repo](https://github.com/jokull/calepin)) – Gets Markdown files from Dropbox, converts into blog posts, generates an Atom feed.
 - [Contentify](http://thyb.github.io/contentify) ([repo](https://github.com/thyb/contentify/)) – Collaborative content manager in realtime over Github and Github Pages.
-- Lanyon (Go; [repo](https://github.com/mkaz/lanyon)) — Simple web server, which reads directories of markdown files and converts them to HTML and serves.
+- [Lanyon](http://ebeab.com/2014/05/07/lanyon-a-markdown-web-server/) (Go; [repo](https://github.com/mkaz/lanyon)) — Simple web server, which reads directories of markdown files and converts them to HTML and serves.
+- docstore (javascript; [repo](https://github.com/haldean/docstore)) — Simple client-side script that makes an ajax request to server, compiles Markdown, displays html. Interesting spin-off, using S3: [Composedit.net](http://composedit.net/)
 - More [here](http://staticsitegenerators.net/), [here](http://staticgen.com/), and [here](https://gist.github.com/davatron5000/2254924); most of them take a pile of Markdown files as the input…
 
 ### Documentation generators & wikis

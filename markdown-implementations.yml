@@ -4,7 +4,7 @@
 # Licensed under a Creative Commons Attribution 3.0 License.
 #
 # Document address: https://github.com/rhythmus/markdown-resources/markdown-implementations.yml
-# Last revision: 2014-05-01 00:05 GMT+1
+# Last revision: 2014-05-15 12:50 GMT+1
 #
 # The following list is far from exhaustive: it’s a (personal,
 # and hence, subjective) curated selection of the “best”
@@ -143,5 +143,10 @@ Showdown:
     - https://github.com/coreyti/showdown
     - http://wayback.archive.org/web/*/http://attacklab.net/showdown
   language: Javascript
+
+Python Markdown:
+  website: https://pythonhosted.org/Markdown/
+  repo: https://github.com/waylan/Python-Markdown
+  language: Python
 
 ...
