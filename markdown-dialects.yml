@@ -83,7 +83,7 @@ Markdown Extra:
     - header ID attribute
     - fenced code blocks
     - tables
-    - definition Lists
+    - definition lists
     - footnotes
     - abbreviations
     - emphasis
@@ -94,9 +94,6 @@ Maruku:
   website: http://maruku.rubyforge.org/maruku.html (dead link)
   implementations: Ruby
 
-kramdown:
-  type: extension
-
 Fountain:
   type: domain specific
   website: http://fountain.io/
@@ -106,3 +103,26 @@ CriticMarkup:
   type: domain specific
   website: http://criticmarkup.com/
   description: “Plain Text Editing Markup for Humans.” Syntax convention for tracking changes (edits) in (Markdownese formatted) documents
+
+Strictdown:
+  type: fork
+  description: “Strictdown was created to be easy to write, and still readable in plain text format, with a strict and powerful syntax. It is as simple as Markdown but not as complicated as reStructuredText.”
+  implementations: Javascript
+  website: http://jakwings.github.io/strictdown/Syntax.html
+  supported nodes:
+    - *plain-markdown (with a few differences)
+    - table of contents
+    - simple code blocks
+    - fenced code blocks
+    - definition lists
+    - tables
+    - deletions
+    - literal text
+    - code snippets
+    - footnotes
+    - abbreviations
+    - anchors and inline references
+    - advanced reference links
+    - block divider
+    - sub-indented elements
+    - macros
