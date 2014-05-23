@@ -218,11 +218,11 @@ link	inline	<a>	[	␣[[e@mail]]␣	Skriv	automatic to e-mail
 link	inline	<a>	[	␣[[string | url]]␣	Skriv	hyperlink
 link	inline	<a>	[	␣[string](url)	markdown	hyperlink
 link	inline	<a>	[	␣[string](../path/to/file)	markdown	link to file system
-link	inline	<a>	[	␣[string](url \"title\")	markdown	hyperlink with title
+link	inline	<a>	[	␣[string](url title)	markdown	hyperlink with title
 link	inline	<a>	[	␣[string][label]	markdown	internal link to reference
 link	inline	<a>	[	␣[label][]	markdown	link to cross-reference
 link	inline	<a>	[	# [label] #	MMD	cross-reference identifier
-link	block	<a>	[	[label]:␣url␣\"title\"	markdown	label definition with url and title attributes
+link	block	<a>	[	[label]:␣url␣'title'	markdown	label definition with url and title attributes
 link	inline	<a>	:	"text":url	Textile	hyperlink
 link	inline	<a>	:	"text":label	Textile	referenced link (link alias)
 link	block	<a>	[	[label]url	Textile	link reference
