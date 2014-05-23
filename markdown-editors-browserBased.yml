@@ -49,6 +49,10 @@ Grande.js:
   supported dialects:
     - plain Markdown (some)
 
+Hackpad:
+  website: https://hackpad.com/
+  note: Acquired by Dropbox.
+
 jQuery Markdown editor:
   platform: browser
   about: “Simple textarea controls for the markdown syntax”
@@ -76,6 +80,10 @@ Markdown Live Preview:
 Markgiu:
   platform: node-webkit
   repo: https://github.com/bianchimro/markgiu
+
+MarkItDown:
+  platform: browser
+  webiste: http://www.markitdown.net/try
 
 Markx:
   platform: browser
@@ -134,6 +142,7 @@ Socrates:
 StackEdit:
   platform: browser
   website: https://stackedit.io/
+  beta: http://stackedit-beta.herokuapp.com/
   repo: https://github.com/benweet/stackedit/
   supported dialects:
     - Github Flavored Markdown
