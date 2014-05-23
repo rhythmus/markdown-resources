@@ -1,250 +1,250 @@
 TYPE	LEVEL	HTML	MARK	PATTERN	LANGUAGES	NOTE
-header	block	<h1>	=	↩======↩string↩======↩	reST	section title
-header	block	<h1>	=	↩string↩======↩	markdown; reST	section title, header first level
-header	block	<h2>	-	↩string↩------↩↩string↩------↩	markdown; AsciiDoc, reST	header second level
-header	block	<h3>	~	↩string↩~~~~~~↩	AsciiDoc, reST	header third level
-header	block	<h1>	-	↩string↩------↩	AsciiDoc	header first level
-header	block	<h2>	~	↩string↩~~~~~~↩	AsciiDoc	header second level
-header	block	<h3>	^	↩string↩^^^^^^↩	AsciiDoc	header third level
-header	block	<h4>	+	↩string↩++++++↩	AsciiDoc	header fourth level
-header	block	<h1>	#	↩#␣string↩	markdown	header first level
-header	block	<h2>	#	↩##␣string↩	markdown	header second level
-header	block	<h3>	#	↩###␣string↩	markdown	header thrid level
-header	block	<h4>	#	↩####␣string↩	markdown	header fourth level
-header	block	<h5>	#	↩#####␣string↩	markdown	header fifth level
-header	block	<h6>	#	↩######␣string↩	markdown	header sixth level
-header	block	<h1>	#	↩#␣string␣#↩	markdown	header first level
-header	block	<h2>	#	↩##␣string␣##↩	markdown	header second level
-header	block	<h3>	#	↩###␣string␣###↩	markdown	header thrid level
-header	block	<h4>	#	↩####␣string␣####↩	markdown	header fourth level
-header	block	<h5>	#	↩#####␣string␣#####↩	markdown	header fifth level
-header	block	<h6>	#	↩######␣string␣######↩	markdown	header sixth level
-header	block	<h1>	=	↩==␣string↩	AsciiDoc	header first level
-header	block	<h2>	=	↩===␣string↩	AsciiDoc	header second level
-header	block	<h3>	=	↩====␣string↩	AsciiDoc	header thrid level
-header	block	<h4>	=	↩=====␣string↩	AsciiDoc	header fourth level
-header	block	<h1>	=	↩=␣string↩	Creole, Skriv	header first level
-header	block	<h2>	=	↩==␣string↩	Creole, Skriv	header second level
-header	block	<h3>	=	↩===␣string↩	Creole, Skriv	header thrid level
-header	block	<h4>	=	↩====␣string↩	Creole, Skriv	header fourth level
-header	block	<h5>	=	↩=====␣string↩	Creole, Skriv	header fifth level
-header	block	<h6>	=	↩======␣string↩	Creole, Skriv	header sixth level
-header	block	<h1>	=	↩=␣string␣=↩	Creole, Skriv	header first level
-header	block	<h2>	=	↩==␣string␣==↩	Creole, MediaWiki, Skriv	header second level
-header	block	<h3>	=	↩===␣string␣===↩	Creole, MediaWiki, Skriv	header thrid level
-header	block	<h4>	=	↩====␣string␣====↩	Creole, MediaWiki, Skriv	header fourth level
-header	block	<h5>	=	↩=====␣string␣=====↩	Creole, MediaWiki, Skriv	header fifth level
-header	block	<h6>	=	↩======␣string␣======↩	Creole, MediaWiki, Skriv	header sixth level
-header	block	<h1>	*	↩*␣string↩	Org-mode	header first level
-header	block	<h2>	*	↩**␣string↩	Org-mode	header second level
-header	block	<h3>	*	↩***␣string↩	Org-mode	header thrid level
-header	block	<h4>	*	↩****␣string↩	Org-mode	header fourth level
-header	block	<h5>	*	↩*****␣string↩	Org-mode	header fifth level
-header	block	<h6>	*	↩******␣string↩	Org-mode	header sixth level
-header	block		.	↩.string↩	AsciiDoc	paragraph title
-paragraph	block	<p>		↩string↩↩	markdown; AsciiDoc, reST, Skriv, Textile 	paragraph
-paragraph	block	<p>		↩string↩	MMD, writedown	paragraph
-single line	block	<br>	␣	↩string␣␣↩	markdown	line within a paragraph
-single line	block	<br>		↩string↩	GFM; Textile, Skriv	line within a paragraph
-single line	block	<br>		string␣+↩	AsciiDoc	forced line break within a paragraph
-italics	inline	<em>	*	␣*string*␣	markdown; reST	emphasis
-italics	inline	<em>, <i>	_	␣_string_␣	markdown; AsciiDoc, Textile	emphasis
-italics	inline	<i>	_	␣__string__␣	Textile
+header	block	<h1>	=	↩======↩string↩======↩	reST	"section title"
+header	block	<h1>	=	↩string↩======↩	"markdown; reST"	"section title, header first level"
+header	block	<h2>	-	↩string↩------↩↩string↩------↩	"markdown; AsciiDoc, reST"	"header second level"
+header	block	<h3>	~	↩string↩~~~~~~↩	"AsciiDoc, reST"	"header third level"
+header	block	<h1>	-	↩string↩------↩	AsciiDoc	"header first level"
+header	block	<h2>	~	↩string↩~~~~~~↩	AsciiDoc	"header second level"
+header	block	<h3>	^	↩string↩^^^^^^↩	AsciiDoc	"header third level"
+header	block	<h4>	+	↩string↩++++++↩	AsciiDoc	"header fourth level"
+header	block	<h1>	#	↩#␣string↩	markdown	"header first level"
+header	block	<h2>	#	↩##␣string↩	markdown	"header second level"
+header	block	<h3>	#	↩###␣string↩	markdown	"header thrid level"
+header	block	<h4>	#	↩####␣string↩	markdown	"header fourth level"
+header	block	<h5>	#	↩#####␣string↩	markdown	"header fifth level"
+header	block	<h6>	#	↩######␣string↩	markdown	"header sixth level"
+header	block	<h1>	#	↩#␣string␣#↩	markdown	"header first level"
+header	block	<h2>	#	↩##␣string␣##↩	markdown	"header second level"
+header	block	<h3>	#	↩###␣string␣###↩	markdown	"header thrid level"
+header	block	<h4>	#	↩####␣string␣####↩	markdown	"header fourth level"
+header	block	<h5>	#	↩#####␣string␣#####↩	markdown	"header fifth level"
+header	block	<h6>	#	↩######␣string␣######↩	markdown	"header sixth level"
+header	block	<h1>	=	↩==␣string↩	AsciiDoc	"header first level"
+header	block	<h2>	=	↩===␣string↩	AsciiDoc	"header second level"
+header	block	<h3>	=	↩====␣string↩	AsciiDoc	"header thrid level"
+header	block	<h4>	=	↩=====␣string↩	AsciiDoc	"header fourth level"
+header	block	<h1>	=	↩=␣string↩	"Creole, Skriv"	"header first level"
+header	block	<h2>	=	↩==␣string↩	"Creole, Skriv"	"header second level"
+header	block	<h3>	=	↩===␣string↩	"Creole, Skriv"	"header thrid level"
+header	block	<h4>	=	↩====␣string↩	"Creole, Skriv"	"header fourth level"
+header	block	<h5>	=	↩=====␣string↩	"Creole, Skriv"	"header fifth level"
+header	block	<h6>	=	↩======␣string↩	"Creole, Skriv"	"header sixth level"
+header	block	<h1>	=	↩=␣string␣=↩	"Creole, Skriv"	"header first level"
+header	block	<h2>	=	↩==␣string␣==↩	"Creole, MediaWiki, Skriv"	"header second level"
+header	block	<h3>	=	↩===␣string␣===↩	"Creole, MediaWiki, Skriv"	"header thrid level"
+header	block	<h4>	=	↩====␣string␣====↩	"Creole, MediaWiki, Skriv"	"header fourth level"
+header	block	<h5>	=	↩=====␣string␣=====↩	"Creole, MediaWiki, Skriv"	"header fifth level"
+header	block	<h6>	=	↩======␣string␣======↩	"Creole, MediaWiki, Skriv"	"header sixth level"
+header	block	<h1>	*	↩*␣string↩	Org-mode	"header first level"
+header	block	<h2>	*	↩**␣string↩	Org-mode	"header second level"
+header	block	<h3>	*	↩***␣string↩	Org-mode	"header thrid level"
+header	block	<h4>	*	↩****␣string↩	Org-mode	"header fourth level"
+header	block	<h5>	*	↩*****␣string↩	Org-mode	"header fifth level"
+header	block	<h6>	*	↩******␣string↩	Org-mode	"header sixth level"
+header	block		.	↩.string↩	AsciiDoc	"paragraph title"
+paragraph	block	<p>		↩string↩↩	"markdown; AsciiDoc, reST, Skriv, Textile "	paragraph
+paragraph	block	<p>		↩string↩	"MMD, writedown"	paragraph
+"single line"	block	<br>	␣	↩string␣␣↩	markdown	"line within a paragraph"
+"single line"	block	<br>		↩string↩	"GFM; Textile, Skriv"	"line within a paragraph"
+"single line"	block	<br>		string␣+↩	AsciiDoc	"forced line break within a paragraph"
+italics	inline	<em>	*	␣*string*␣	"markdown; reST"	emphasis
+italics	inline	"<em>, <i>"	_	␣_string_␣	"markdown; AsciiDoc, Textile"	emphasis
+italics	inline	<i>	_	␣__string__␣	Textile	
 italics	inline	<i>	/	␣/string/␣	Org-mode	italics
 italics	inline	<i>	/	␣//string//␣	Creole	italics
 italics	inline	<i>	~	␣~string~␣	Setext	italics
-italics	inline	<i>	'	␣'string'␣	AsciiDoc
-italics	inline	<i>	'	␣''string''␣	MediaWiki, Skriv	italics
-boldface	inline	<strong>	*	*string*	AsciiDoc, Org-mode, Textile	boldface
-boldface	inline	<strong>, <b>	*	␣**string**␣	markdown; Creole, reST, Setext, Skriv, Textile	strong emphasis, boldface
-boldface	inline	<strong>, <b>	_	␣__string__␣	markdown	strong emphasis, boldface
+italics	inline	<i>	'	␣'string'␣	AsciiDoc	
+italics	inline	<i>	'	␣''string''␣	"MediaWiki, Skriv"	italics
+boldface	inline	<strong>	*	*string*	"AsciiDoc, Org-mode, Textile"	boldface
+boldface	inline	"<strong>, <b>"	*	␣**string**␣	"markdown; Creole, reST, Setext, Skriv, Textile"	"strong emphasis, boldface"
+boldface	inline	"<strong>, <b>"	_	␣__string__␣	markdown	"strong emphasis, boldface"
 boldface	inline	<b>	'	␣'''string'''␣	MediaWiki	boldface
-bold italics	inline		*	␣**_string_**␣	markdown	combined emphasis, bold italics
-			=	=== Text ===	Textile	emphasis
-monospaced	inline	<code>	`	␣`string`␣	markdown	monospaced font, code
+"bold italics"	inline		*	␣**_string_**␣	markdown	"combined emphasis, bold italics"
+			=	"=== Text ==="	Textile	emphasis
+monospaced	inline	<code>	`	␣`string`␣	markdown	"monospaced font, code"
 monospaced	inline	<kbd>	`	`string`	AsciiDoc	command
-	inline		'	'string'	AsciiDoc	file path
-monospaced	inline	<code>	`	␣``string``␣	reST	monospaced font, code
-monospaced	inline	<code>	+	+string+	AsciiDoc	monospaced font
-monospaced	inline	<code>, <tt>	#	␣##string##␣	Creole, Skriv	monospaced font
-monospaced	inline	<code>	=	␣=string=␣	Org-mode	monospaced font
-monospaced	inline	<code>	~	␣~string~␣	Org-mode	verbatim, monospaced font
-monospaced	inline	<code>	{	␣{{{string}}}␣	Creole	monospaced font
-monospaced	inline	<code>	@	␣@string@␣	Textile	monospaced font
-monospaced	inline	<code>	`	``text``	reST 	inline literal
-		<code>	`	`text`	reST 	interpreted text (rendering is domain- or application-dependent)
+	inline		'	'string'	AsciiDoc	"file path"
+monospaced	inline	<code>	`	␣``string``␣	reST	"monospaced font, code"
+monospaced	inline	<code>	+	+string+	AsciiDoc	"monospaced font"
+monospaced	inline	"<code>, <tt>"	#	␣##string##␣	"Creole, Skriv"	"monospaced font"
+monospaced	inline	<code>	=	␣=string=␣	Org-mode	"monospaced font"
+monospaced	inline	<code>	~	␣~string~␣	Org-mode	"verbatim, monospaced font"
+monospaced	inline	<code>	{	␣{{{string}}}␣	Creole	"monospaced font"
+monospaced	inline	<code>	@	␣@string@␣	Textile	"monospaced font"
+monospaced	inline	<code>	`	``text``	"reST "	"inline literal"
+		<code>	`	`text`	"reST "	"interpreted text (rendering is domain- or application-dependent)"
 underlined	inline	<u>	_	␣_string_␣	Org-mode	underlined
 underlined	inline	<u>	_	␣__string__␣	Skriv	underlined
 strike-through	inline	<s>	+	␣+string+␣	Org-mode	deleted
 strike-through	inline	<s>	-	␣--string--␣	Skriv	deleted
 strike-through	inline	<s>	~	␣~~string~~␣	markdown	deleted
-strike-through	inline	<del>	{-	␣{--string--}	MMD, CriticMarkup	deletion
-underlined	inline	<ins>	{	␣{++string++}	MMD, CriticMarkup	addition
-	inline		{~	␣{~~foo~>bar~~}	MMD, CriticMarkup	replacement of “foo” (deleted) by “bar” (added)
-highlight	inline	<mark>	{	␣{==string==}	MMD, CriticMarkup	highlighted text, e.g. with a colored fluo marker background
-comment	inline	<!-- -->	{	{>>string<<}	MMD, CriticMarkup	comment, text removed from in output
+strike-through	inline	<del>	{-	␣{--string--}	"MMD, CriticMarkup"	deletion
+underlined	inline	<ins>	{	␣{++string++}	"MMD, CriticMarkup"	addition
+	inline		{~	␣{~~foo~>bar~~}	"MMD, CriticMarkup"	"replacement of “foo” (deleted) by “bar” (added)"
+highlight	inline	<mark>	{	␣{==string==}	"MMD, CriticMarkup"	"highlighted text, e.g. with a colored fluo marker background"
+comment	inline	"<!-- -->"	{	{>>string<<}	"MMD, CriticMarkup"	"comment, text removed from in output"
 strike-through	inline	<del>	-	␣-word-␣	Textile	deletion
 underlined	inline	<ins>	+	␣+word+␣	Textile	addition
-superscript	inline	<sup>	^	^c	MMD	single raised character
-superscript	inline	<sup>	^	^string^	MMD; AsciiDoc, Textile	multiple raised characters
-subscript	inline	<sub>	~	~c	MMD	single lowered character
-subscript	inline	<sub>	~	~string~	MMD; AsciiDoc, Textile	multiple lowered characters
-superscript	inline	<sup>	^	␣^^string^^␣	Creole, Skriv
-subscript	inline	<sub>	,	␣,,string,,␣	Creole, Skriv
-	inline	<span>	%	%{css:rule}text%	Textile	arbitrary styling
-math	block	<math>	\	\\[formula␣\\]	MMD	block-level formula
-math	inline	<math>	\	\\(formula␣\\)	MMD	inline formula
-math	block	<math>	$	$$formula$$	MMD	block-level formula
-math	inline	<math>	$	$formula$␣	MMD	inline formula
-list	block	<ol>		↩1.␣string↩	markdown	ordered list item
-list	block	<ol>	␣	↩␣␣1.␣string↩	markdown	ordered nested list item
-list	block	<ol>		↩1.1.␣string↩	writedown	ordered nested list item
-list	block	<ol>	)	↩1)␣string↩	reST	ordered enumerated list item
-list	block	<ol>	#	↩#)␣string↩	reST	ordered enumerated list item
-list	block	<ol>	#	↩#␣string↩	Creole, MediaWiki, Skriv, Textile	ordered list item
-list	block	<ol>	#	↩##␣string↩	Creole, MediaWiki, Skriv, Textile	ordered nested list item
-list	block	<ol>	.	↩. string↩	AsciiDoc	numbered list item
-list	block	<ol>	.	↩.. string↩	AsciiDoc	ordered nested list item
-list	block	<ol>	.	↩␣␣.. string↩	AsciiDoc	ordered nested list item
-list	block	<ol>		↩a. string↩	AsciiDoc	alphanumeric list item
-list	block	<ol>	)	↩␣␣␣a)␣string↩	reST	nested ordered alphanumeric list item
-list	block	<ul>	*	↩*␣string↩	markdown; AsciiDoc, Skriv, Textile	unordered list item
-list	block	<ul>	-	↩-␣string↩	markdown; AsciiDoc, reST	unordered list item
-list	block	<ul>	+	↩+␣string↩	markdown	unordered list item
-list	block	<ul>	␣	↩␣␣*␣string↩	markdown	unordered nested list item
-list	block	<ul>	␣	↩␣␣-␣string↩	markdown	unordered nested list item
-list	block	<ul>	␣	↩␣␣+␣string↩	markdown	unordered nested list item
-list	block	<ul>	*	↩**␣string↩	writedown; AsciiDoc, Skriv, Textile	unordered nested list item
-list	block	<ul>	-	↩␣␣- string↩	AsciiDoc, reST	unordered nested list item
-list	block	<ul>	*	↩␣␣* string↩	AsciiDoc	unordered nested list item
-list	block	<li>		↩*␣1.␣string↩	writedown	mixed nested list item
-list	block	<li>		↩**#␣string↩	Skriv	mixed nested list item
-list	block	<li>	#	↩#8␣Text	Textile	enumerated list item starting by number eight
-list	block	<li>	#	↩#_␣Text	Textile	continuing enumerated list item
-list	block	<li>	*	↩*#␣string↩	Textile	mixed nested list item
-definition	block	<dt>	:	↩lemma↩:␣␣␣	MMD	definition term (lemma)
-definition	block	<dd>	:	↩:␣␣␣definition	MMD	definition description
-definition	block	<dd>	:	↩:␣␣␣def1↩↩␣␣␣␣	MMD	definition alternative descriptions
-definition	block	<dt>	:	↩lemma::↩	AsciiDoc	definition term (lemma)
-definition	block	<dd>	:	↩:␣␣␣␣definition↩	AsciiDoc	definition description
-definition	block	<dl>	;	↩:␣␣␣␣lemma;;↩	AsciiDoc	nested definition
-definition	block	<dt>	;	↩lemma;;↩	AsciiDoc	definition term (lemma)
-definition	block	<dl>	:	↩:␣␣␣␣lemma::↩	AsciiDoc	nested definition
-definition	block	<dt>	;	↩;␣lemma↩	Textile	definition term (lemma)
-definition	block	<dd>	:	↩:␣definition↩	Textile	definition description
-definition	block	<dl>	-	↩-␣lemma␣:=␣definition↩	Textile	definition list item with term and single description
-definition	block	<dl>	-	↩-␣lemma␣:=␣definition 1↩definition 2␣=:↩	Textile	definition list item with term and multiple descriptions
-quote	block	<blockquote>	>	↩>␣string↩	markdown; Skriv	part of a prose extract
-quote	block	<blockquote>	>	↩>>␣string↩	writedown	blockquote nested within blockquote
-quote	block	<blockquote>	␣	↩␣␣␣␣Text↩	reST	single line of block quote
-quote	block	<blockquote>	␣	↩␣␣␣␣Text↩↩	reST	block quote
-verbatim	block	<pre>	`	↩```↩string↩```↩	markdown	“fenced” code block
-verbatim	block	<pre>	-	↩--↩string↩--↩	AsciiDoc	“listing block”, used for code or file listings
-marginal	block	<aside>	*	↩****↩string↩****↩	AsciiDoc	“sidebar note”
-sample	block	<samp>	=	↩====↩string↩====↩	AsciiDoc	“example block”
-comment	block	<!-- -->	/	↩////↩string↩////↩	AsciiDoc	“comment block”, not in output
-comment	block	<!-- -->	/	↩// string	AsciiDoc	single line comment, not in output
-html	block		+	↩++++↩string↩++++↩	AsciiDoc	“passthrough block”, raw html (not interpreted)
-verbatim	block	<pre>	.	↩....↩string↩....↩	AsciiDoc	“literal block”
-quote	block	<blockquote>	_	↩____↩string↩____↩	AsciiDoc	“quote block”
-verbatim line	block	<pre>	␣	↩␣␣␣␣string↩	markdown	single line of code
-verbatim	block	<pre>	:	↩::↩↩Text↩↩	reST	literal block
-verbatim	block	<pre>	.	↩.. code:: language↩↩Text↩↩	reST	code block
-verbatim line	block	<pre>	␣	↩␣␣string↩	reST	single line of code
-verbatim line	block	<pre>	␣	↩␣string	AsciiDoc	single line of code
-verbatim line	block	<pre>	␣	↩␣string↩	MediaWiki, Skriv	preformatted text, with further syntax parsing
-verbatim	block	<pre>	[	↩[[[string]]]↩	Skriv	preformatted text block without any further syntax parsing
-ruler	block	<hr>	*	↩***↩	markdown	horizontal ruler
-ruler	block	<hr>	-	↩---↩	markdown	horizontal ruler
-ruler	block	<hr>	-	↩----↩	Skriv	horizontal ruler at least 4 dashes
-ruler	block	<hr>	_	↩___↩	markdown	horizontal ruler
-ruler	block	<hr>	'	↩''''↩	AsciiDoc	horizontal ruler
-link	inline	<a>	<	␣<url>␣	markdown	automatic hyperlink
-link	inline	<a>	<	␣<e@mail>␣	markdown	automatic hyperlink to e-mail
-link	inline	<a>	[	␣[[url]]␣	Skriv	automatic hyperlink
-link	inline	<a>	[	␣[[e@mail]]␣	Skriv	automatic to e-mail
-link	inline	<a>	[	␣[[string | url]]␣	Skriv	hyperlink
+superscript	inline	<sup>	^	^c	MMD	"single raised character"
+superscript	inline	<sup>	^	^string^	"MMD; AsciiDoc, Textile"	"multiple raised characters"
+subscript	inline	<sub>	~	~c	MMD	"single lowered character"
+subscript	inline	<sub>	~	~string~	"MMD; AsciiDoc, Textile"	"multiple lowered characters"
+superscript	inline	<sup>	^	␣^^string^^␣	"Creole, Skriv"	
+subscript	inline	<sub>	","	"␣,,string,,␣"	"Creole, Skriv"	
+	inline	<span>	%	%{css:rule}text%	Textile	"arbitrary styling"
+math	block	<math>	"\	\\[formula␣\\]"	MMD	"block-level formula"	
+math	inline	<math>	"\	\\(formula␣\\)"	MMD	"inline formula"	
+math	block	<math>	$	$$formula$$	MMD	"block-level formula"
+math	inline	<math>	$	$formula$␣	MMD	"inline formula"
+list	block	<ol>		↩1.␣string↩	markdown	"ordered list item"
+list	block	<ol>	␣	↩␣␣1.␣string↩	markdown	"ordered nested list item"
+list	block	<ol>		↩1.1.␣string↩	writedown	"ordered nested list item"
+list	block	<ol>	)	↩1)␣string↩	reST	"ordered enumerated list item"
+list	block	<ol>	#	↩#)␣string↩	reST	"ordered enumerated list item"
+list	block	<ol>	#	↩#␣string↩	"Creole, MediaWiki, Skriv, Textile"	"ordered list item"
+list	block	<ol>	#	↩##␣string↩	"Creole, MediaWiki, Skriv, Textile"	"ordered nested list item"
+list	block	<ol>	.	"↩. string↩"	AsciiDoc	"numbered list item"
+list	block	<ol>	.	"↩.. string↩"	AsciiDoc	"ordered nested list item"
+list	block	<ol>	.	"↩␣␣.. string↩"	AsciiDoc	"ordered nested list item"
+list	block	<ol>		"↩a. string↩"	AsciiDoc	"alphanumeric list item"
+list	block	<ol>	)	↩␣␣␣a)␣string↩	reST	"nested ordered alphanumeric list item"
+list	block	<ul>	*	↩*␣string↩	"markdown; AsciiDoc, Skriv, Textile"	"unordered list item"
+list	block	<ul>	-	↩-␣string↩	"markdown; AsciiDoc, reST"	"unordered list item"
+list	block	<ul>	+	↩+␣string↩	markdown	"unordered list item"
+list	block	<ul>	␣	↩␣␣*␣string↩	markdown	"unordered nested list item"
+list	block	<ul>	␣	↩␣␣-␣string↩	markdown	"unordered nested list item"
+list	block	<ul>	␣	↩␣␣+␣string↩	markdown	"unordered nested list item"
+list	block	<ul>	*	↩**␣string↩	"writedown; AsciiDoc, Skriv, Textile"	"unordered nested list item"
+list	block	<ul>	-	"↩␣␣- string↩"	"AsciiDoc, reST"	"unordered nested list item"
+list	block	<ul>	*	"↩␣␣* string↩"	AsciiDoc	"unordered nested list item"
+list	block	<li>		↩*␣1.␣string↩	writedown	"mixed nested list item"
+list	block	<li>		↩**#␣string↩	Skriv	"mixed nested list item"
+list	block	<li>	#	↩#8␣Text	Textile	"enumerated list item starting by number eight"
+list	block	<li>	#	↩#_␣Text	Textile	"continuing enumerated list item"
+list	block	<li>	*	↩*#␣string↩	Textile	"mixed nested list item"
+definition	block	<dt>	:	↩lemma↩:␣␣␣	MMD	"definition term (lemma)"
+definition	block	<dd>	:	↩:␣␣␣definition	MMD	"definition description"
+definition	block	<dd>	:	↩:␣␣␣def1↩↩␣␣␣␣	MMD	"definition alternative descriptions"
+definition	block	<dt>	:	↩lemma::↩	AsciiDoc	"definition term (lemma)"
+definition	block	<dd>	:	↩:␣␣␣␣definition↩	AsciiDoc	"definition description"
+definition	block	<dl>	";"	"↩:␣␣␣␣lemma;;↩"	AsciiDoc	"nested definition"
+definition	block	<dt>	";"	"↩lemma;;↩"	AsciiDoc	"definition term (lemma)"
+definition	block	<dl>	:	↩:␣␣␣␣lemma::↩	AsciiDoc	"nested definition"
+definition	block	<dt>	";"	"↩;␣lemma↩"	Textile	"definition term (lemma)"
+definition	block	<dd>	:	↩:␣definition↩	Textile	"definition description"
+definition	block	<dl>	-	↩-␣lemma␣:=␣definition↩	Textile	"definition list item with term and single description"
+definition	block	<dl>	-	"↩-␣lemma␣:=␣definition 1↩definition 2␣=:↩"	Textile	"definition list item with term and multiple descriptions"
+quote	block	<blockquote>	>	↩>␣string↩	"markdown; Skriv"	"part of a prose extract"
+quote	block	<blockquote>	>	↩>>␣string↩	writedown	"blockquote nested within blockquote"
+quote	block	<blockquote>	␣	↩␣␣␣␣Text↩	reST	"single line of block quote"
+quote	block	<blockquote>	␣	↩␣␣␣␣Text↩↩	reST	"block quote"
+verbatim	block	<pre>	`	↩```↩string↩```↩	markdown	"“fenced” code block"
+verbatim	block	<pre>	-	↩--↩string↩--↩	AsciiDoc	"“listing block”, used for code or file listings"
+marginal	block	<aside>	*	↩****↩string↩****↩	AsciiDoc	"“sidebar note”"
+sample	block	<samp>	=	↩====↩string↩====↩	AsciiDoc	"“example block”"
+comment	block	"<!-- -->"	/	↩////↩string↩////↩	AsciiDoc	"“comment block”, not in output"
+comment	block	"<!-- -->"	/	"↩// string"	AsciiDoc	"single line comment, not in output"
+html	block		+	↩++++↩string↩++++↩	AsciiDoc	"“passthrough block”, raw html (not interpreted)"
+verbatim	block	<pre>	.	↩....↩string↩....↩	AsciiDoc	"“literal block”"
+quote	block	<blockquote>	_	↩____↩string↩____↩	AsciiDoc	"“quote block”"
+"verbatim line"	block	<pre>	␣	↩␣␣␣␣string↩	markdown	"single line of code"
+verbatim	block	<pre>	:	↩::↩↩Text↩↩	reST	"literal block"
+verbatim	block	<pre>	.	"↩.. code:: language↩↩Text↩↩"	reST	"code block"
+"verbatim line"	block	<pre>	␣	↩␣␣string↩	reST	"single line of code"
+"verbatim line"	block	<pre>	␣	↩␣string	AsciiDoc	"single line of code"
+"verbatim line"	block	<pre>	␣	↩␣string↩	"MediaWiki, Skriv"	"preformatted text, with further syntax parsing"
+verbatim	block	<pre>	[	↩[[[string]]]↩	Skriv	"preformatted text block without any further syntax parsing"
+ruler	block	<hr>	*	↩***↩	markdown	"horizontal ruler"
+ruler	block	<hr>	-	↩---↩	markdown	"horizontal ruler"
+ruler	block	<hr>	-	↩----↩	Skriv	"horizontal ruler at least 4 dashes"
+ruler	block	<hr>	_	↩___↩	markdown	"horizontal ruler"
+ruler	block	<hr>	'	↩''''↩	AsciiDoc	"horizontal ruler"
+link	inline	<a>	<	␣<url>␣	markdown	"automatic hyperlink"
+link	inline	<a>	<	␣<e@mail>␣	markdown	"automatic hyperlink to e-mail"
+link	inline	<a>	[	␣[[url]]␣	Skriv	"automatic hyperlink"
+link	inline	<a>	[	␣[[e@mail]]␣	Skriv	"automatic to e-mail"
+link	inline	<a>	[	"␣[[string | url]]␣"	Skriv	hyperlink
 link	inline	<a>	[	␣[string](url)	markdown	hyperlink
-link	inline	<a>	[	␣[string](../path/to/file)	markdown	link to file system
-link	inline	<a>	[	␣[string](url 'title')	markdown	hyperlink with title
-link	inline	<a>	[	␣[string][label]	markdown	internal link to reference
-link	inline	<a>	[	␣[label][]	markdown	link to cross-reference
-link	inline	<a>	[	# [label] #	MMD	cross-reference identifier
-link	block	<a>	[	[label]:␣url␣'title'	markdown	label definition with url and title attributes
+link	inline	<a>	[	␣[string](../path/to/file)	markdown	"link to file system"
+link	inline	<a>	[	"␣[string](url 'title')"	markdown	"hyperlink with title"
+link	inline	<a>	[	␣[string][label]	markdown	"internal link to reference"
+link	inline	<a>	[	␣[label][]	markdown	"link to cross-reference"
+link	inline	<a>	[	"# [label] #"	MMD	"cross-reference identifier"
+link	block	<a>	[	[label]:␣url␣'title'	markdown	"label definition with url and title attributes"
 link	inline	<a>	:	'text':url	Textile	hyperlink
-link	inline	<a>	:	'text':label	Textile	referenced link (link alias)
-link	block	<a>	[	[label]url	Textile	link reference
-citation	inline	<cite>	[	[page][#book]	MMD	footnote marker with page number and reference to bibliographic address
-citation	inline	<cite>	?	??Text??	Textile	citation, book title
-citation	block	<cite>	[	[#book]: string	MMD	referenced bibliographic address
-note	inline	<ref>	(	␣((string))	Skriv	inline footnote text
-note	inline	<ref>	(	␣((label|string))	Skriv	inline footnote text with custom footnote marker (label)
-note	inline		[	[^string]	MMD inline footnote text
-note	inline		[	[^label]	MMD footnote marker
-note	inline		[	[1]	Textile footnote marker; the number is the actual identifier
-note	block		[	[^label]: string	MMD footnote text
-note	inline		[	[^label]	MMD indexed glossary term reference
-note	block		[	[^label]:glossary: Term␣␣␣␣Description	MMD indexed glossary term text
-note	inline	<a>	_	word_	reST	reference to named link
-note	inline	<a>	_	`text phrase`_	reST	reference to named link
-link	block	<a>	.	..␣_Text label:: url	reST	named link
-link	inline	<a>	_	`Text`__	reST	reference to anonymous link
-link	inline	<a>	_	__ url	reST	anonymous link
-note	inline		[	[1]_	reST footnote marker; the number is the actual identifier; can be any other string, e.g. the sigil of a citation reference
+link	inline	<a>	:	'text':label	Textile	"referenced link (link alias)"
+link	block	<a>	[	[label]url	Textile	"link reference"
+citation	inline	<cite>	[	[page][#book]	MMD	"footnote marker with page number and reference to bibliographic address"
+citation	inline	<cite>	?	??Text??	Textile	"citation, book title"
+citation	block	<cite>	[	"[#book]: string"	MMD	"referenced bibliographic address"
+note	inline	<ref>	(	␣((string))	Skriv	"inline footnote text"
+note	inline	<ref>	(	␣((label|string))	Skriv	"inline footnote text with custom footnote marker (label)"
+note	inline		[	[^string]	"MMD inline footnote text"	
+note	inline		[	[^label]	"MMD footnote marker"	
+note	inline		[	[1]	"Textile footnote marker; the number is the actual identifier"	
+note	block		[	"[^label]: string"	"MMD footnote text"	
+note	inline		[	[^label]	"MMD indexed glossary term reference"	
+note	block		[	"[^label]:glossary: Term␣␣␣␣Description"	"MMD indexed glossary term text"	
+note	inline	<a>	_	word_	reST	"reference to named link"
+note	inline	<a>	_	"`text phrase`_"	reST	"reference to named link"
+link	block	<a>	.	"..␣_Text label:: url"	reST	"named link"
+link	inline	<a>	_	`Text`__	reST	"reference to anonymous link"
+link	inline	<a>	_	"__ url"	reST	"anonymous link"
+note	inline		[	[1]_	"reST footnote marker; the number is the actual identifier; can be any other string, e.g. the sigil of a citation reference"	
 image		<img>	!	␣![](url)	markdown	image
-image		<img>	!	␣![alt](url 'title')	markdown	image with alt text and title
-image		<img>	!	␣![alt][reference]	markdown	referenced image with alt text
+image		<img>	!	"␣![alt](url 'title')"	markdown	"image with alt text and title"
+image		<img>	!	␣![alt][reference]	markdown	"referenced image with alt text"
 image		<img>	!	!url!	Textile	image
-image		<img>	!	!url(title)!	Textile	image with title
-image		<img>	.	..␣image:: url	reST	image
-link		<a><img>	:	!url!:url	Textile	clickable image
-image	block	<figure><figcaption>	!	↩![](url)↩	MMD	figure with caption
-image		<img>	{	␣{{alt | url}}	Skriv
-table	block	<th>	|	↩| string |↩| --- |↩	MMD	table row header cell
-table	block	<th>	|	↩|_. string	Textile	table row header cell
-table	block	<thead>	|	↩| --- |	MMD	table header/body separator
-table	block		|	↩| :---	MMD	table column alignment: left
-table	block		|	↩| :---: |	MMD	table column alignment: centered
-table	block		|	↩| ---: |	MMD	table column alignment: right
-table	block	<td>	|	| string	MMD	table row cell
-table	block	<td>	|	| string |	Textile	table row cell
-table	block	<td>	|	| string ||	MMD	table columnspan merged cells
-table	block	<th>	!	!!␣string	Skriv	table row header cell
-table	block	<td>	|	||␣string	Skriv	table row cell
-table	block	<table>	|	↩|===↩	AsciiDoc	table start and end
-table	block	<td>	|	| string	AsciiDoc	table row cell
-table	block	<tr>	,	↩cell,cell	AsciiDoc	table row, csv-style
-table	block	<td>	\ 	|\2. string ||	Textile	table columnspan merged cells
-table	block	<td>	/	|/2. string ||	Textile	table rowspan merged cells
-abbreviation	inline	<abbr>	?	␣??acronym|string??␣	Skriv	abbreviated acronym with explanatory title
-abbreviation	inline	<acronym>	(	acronym(Text)	Textile	abbreviated acronym with explanatory title
-variable	inline	<var>	%	[%var]	MMD	metadata variable placeholder
-variable	inline	<var>	<	<<plugin|parameters>>	Skriv	inline variable placeholder with extension name and parameters
-variable	block	<var>	<	<<<plugin|para|meter↩string>>>	Skriv	block placeholder with extension name, parameters, and input
-variable	inline	<var>	{	{var}	AsciiDoc	inline variable placeholder
-variable	inline	<var>	␣|text|␣	reST	substitution reference
-include	block	<template>		include::filename.ext[]	AsciiDoc 	server or client side file include
-style		<style>	<	|<.	Textile	align left
-style		<style>	>	|>.	Textile	align right
+image		<img>	!	!url(title)!	Textile	"image with title"
+image		<img>	.	"..␣image:: url"	reST	image
+link		<a><img>	:	!url!:url	Textile	"clickable image"
+image	block	<figure><figcaption>	!	↩![](url)↩	MMD	"figure with caption"
+image		<img>	{	"␣{{alt | url}}"	Skriv	
+table	block	<th>	|	"↩| string |↩| --- |↩"	MMD	"table row header cell"
+table	block	<th>	|	"↩|_. string"	Textile	"table row header cell"
+table	block	<thead>	|	"↩| --- |"	MMD	"table header/body separator"
+table	block		|	"↩| :---"	MMD	"table column alignment: left"
+table	block		|	"↩| :---: |"	MMD	"table column alignment: centered"
+table	block		|	"↩| ---: |"	MMD	"table column alignment: right"
+table	block	<td>	|	"| string"	MMD	"table row cell"
+table	block	<td>	|	"| string |"	Textile	"table row cell"
+table	block	<td>	|	"| string ||"	MMD	"table columnspan merged cells"
+table	block	<th>	!	!!␣string	Skriv	"table row header cell"
+table	block	<td>	|	||␣string	Skriv	"table row cell"
+table	block	<table>	|	↩|===↩	AsciiDoc	"table start and end"
+table	block	<td>	|	"| string"	AsciiDoc	"table row cell"
+table	block	<tr>	","	"↩cell,cell"	AsciiDoc	"table row, csv-style"
+table	block	<td>	"\ "	"|\2. string ||"	Textile	"table columnspan merged cells"
+table	block	<td>	/	"|/2. string ||"	Textile	"table rowspan merged cells"
+abbreviation	inline	<abbr>	?	␣??acronym|string??␣	Skriv	"abbreviated acronym with explanatory title"
+abbreviation	inline	<acronym>	(	acronym(Text)	Textile	"abbreviated acronym with explanatory title"
+variable	inline	<var>	%	[%var]	MMD	"metadata variable placeholder"
+variable	inline	<var>	<	<<plugin|parameters>>	Skriv	"inline variable placeholder with extension name and parameters"
+variable	block	<var>	<	<<<plugin|para|meter↩string>>>	Skriv	"block placeholder with extension name, parameters, and input"
+variable	inline	<var>	{	{var}	AsciiDoc	"inline variable placeholder"
+variable	inline	<var>	␣|text|␣	reST	"substitution reference"	
+include	block	<template>		include::filename.ext[]	"AsciiDoc "	"server or client side file include"
+style		<style>	<	|<.	Textile	"align left"
+style		<style>	>	|>.	Textile	"align right"
 style		<style>	=	|=.	Textile	centered
 style		<style>	<	|<>.	Textile	justified
-style		<style>	(	|(.	Textile	left indent 1em
-style		<style>	(	|((.	Textile	left indent 2em
-style		<style>	)	|))).	Textile	right indent 2em
-style		<style>	^	|^.	Textile	vertical align to top
-style		<style>	~	|~.	Textile	vertical align to bottom
-	inline		\ 	\c	AsciiDoc, Skriv 	escaped character
+style		<style>	(	|(.	Textile	"left indent 1em"
+style		<style>	(	|((.	Textile	"left indent 2em"
+style		<style>	)	|))).	Textile	"right indent 2em"
+style		<style>	^	|^.	Textile	"vertical align to top"
+style		<style>	~	|~.	Textile	"vertical align to bottom"
+	inline		"\ "	\c	"AsciiDoc, Skriv "	"escaped character"
 		<head>				metadata
-		<header>
-		<address>
-		<main>
-		<section>
-		<footer>
-		<small>
-		<ruby>
-		<iframe>
-		<embed>
-		<object>
-		<video>
-		<audio>
-		<canvas>
+		<header>				
+		<address>				
+		<main>				
+		<section>				
+		<footer>				
+		<small>				
+		<ruby>				
+		<iframe>				
+		<embed>				
+		<object>				
+		<video>				
+		<audio>				
+		<canvas>				
