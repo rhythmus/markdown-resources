@@ -44,6 +44,16 @@ Pandoc:
   parser type: PEG grammar
   maintenance: active
 
+Cheapskate:
+  description: Experimental markdown processor in Haskell. This is an experimental Markdown processor in pure Haskell. (A cheapskate is always in search of the best markdown.) It aims to process Markdown efficiently and in the most forgiving possible way. It is about seven times faster than pandoc and uses a fifth the memory. It is also faster, and considerably more accurate, than the markdown package on Hackage.
+  developers:
+    - name: John MacFarlane
+      GitHub: https://github.com/jgm/
+      website: http://johnmacfarlane.net
+  repo: https://github.com/jgm/cheapskate
+  language: Haskell
+  maintenance: active
+
 Texts.js:
   description: JavaScript library (for Node and for browser) that implements conversion between various “rich” text formats. It does the conversion via universal text model (TextJSON, see below) that is rich enough for most of the texts.
   type: Node.js module
@@ -148,5 +158,77 @@ Python Markdown:
   website: https://pythonhosted.org/Markdown/
   repo: https://github.com/waylan/Python-Markdown
   language: Python
+
+Parsedown:
+  supported dialects:
+     - plain Markdown
+     - GFM
+     - Markdown Extra
+  website: http://parsedown.org/
+  repo: https://github.com/erusev/parsedown
+  demo: http://parsedown.org/demo
+  description: fast and extensible
+  parser type: regexes
+  developers:
+    - name: Emanuil Rusev
+      GitHub: https://github.com/erusev
+  language: php
+  note: https://news.ycombinator.com/item?id=7783501
+
+Mistune:
+  website: http://mistune.readthedocs.org/en/latest/
+  repo: https://github.com/lepture/mistune
+  description: “The fastest markdown parser in pure Python, inspired by marked.”
+  developers:
+    - name: Hsiaoming Yang
+      GitHub: https://github.com/lepture
+  language: Python
+
+markdown:
+  supported dialects:
+     - plain Markdown
+     - GFM
+  repo: https://github.com/cebe/markdown
+  description: “A set of PHP classes, each representing a Markdown flavor, and a command line tool for converting markdown files to HTML files.”
+  developers:
+    - name: Carsten Brandt
+      GitHub: https://github.com/cebe
+  language: php
+
+sundown:
+  repo: https://github.com/vmg/sundown
+  description: “Standards compliant, fast, secure markdown processing library in C”
+  developers:
+    - name: Vicent Marti
+      GitHub: https://github.com/vmg
+  language: C
+
+kramdown:
+  description: Ruby library for parsing and converting a superset of Markdown.
+  input: Markdown, kramdown, html
+  output: html, kramdown, LaTeX, pdf
+  supported dialects:
+     - plain Markdown
+     - Markdown Extra
+     - Maruku
+  developers:
+    - name: Thomas Leitner
+      GitHub: https://github.com/gettalong
+      e-Mail: t_leitner@gmx.at
+  repo: https://github.com/gettalong/kramdown
+  website: http://kramdown.gettalong.org/
+  language: Ruby
+  license: MIT
+
+Strictdown:
+  description: A Strictdown parser and compiler written in Javascript. Built for web browsers and Node.js™
+  developers:
+    - name: Jak Wings
+      GitHub: https://github.com/jakwings
+  repo: https://github.com/jakwings/strictdown
+  website: http://jakwings.github.io/strictdown/Syntax.html
+  demo: http://jakwings.github.io/strictdown/demo.html
+  language: Javascript
+  license: MIT
 
 ...
