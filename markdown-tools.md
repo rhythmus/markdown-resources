@@ -42,10 +42,11 @@ Listed below are applications (with user interfaces), which use one or more of t
 [_Some day…_](https://github.com/quilljs/quill/issues/74#issuecomment-42942223)
 
 - [Demarcate.js](http://will-hart.github.io/demarcate.js/) ([repo](https://github.com/will-hart/demarcate.js))
-- [lepture/editor](http://lab.lepture.com/editor/) ([repo](https://github.com/lepture/editor)) (uses CodeMirror)
+- [lepture/editor](http://lab.lepture.com/editor/) ([repo](https://github.com/lepture/editor)) — Built on CodeMirror.
 - [sofish/pen](http://sofish.github.io/pen/) ([repo](https://github.com/sofish/pen))
 - [Hallo.js](http://hallojs.org/demo/markdown/) ([repo](https://github.com/bergie/hallo))
 - [md-wysiwyg](http://md-wysiwyg.sourceforge.net/) (python; [demo](http://md-wysiwyg.sourceforge.net/cgi-bin/cgi_wysiwyg_test.py/)  — Simple html editor that outputs Markdown.
+
 
 ## Editing
 
@@ -74,6 +75,7 @@ Listed below are applications (with user interfaces), which use one or more of t
 ### Anonymous publishing (Pastebin-style)
 - [Notehub](http://www.notehub.org) (Clojure; [repo](https://github.com/chmllr/NoteHub)) — Support for plain original Markdown, using the Pagedown.js parser. Custom styling possible within `<style>`. Password-protected editing.
 - [peg](http://peg.gd/1)
+- [MarkdownShare.com](http://markdownshare.com/) (Perl; [repo](https://github.com/skx/markdown.share/)) — Emoji support, submission API, editable after publication.
 
 ### Prettified .md Github gists
 - [Gist.io](http://gist.io/) (Python; [repo](https://github.com/idan/gistio)) — Client-side markdown processing.
