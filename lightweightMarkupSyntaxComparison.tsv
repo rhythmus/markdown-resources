@@ -50,7 +50,7 @@
 #
 # ==============================================================================
 #
-TYPE	LEVEL	HTML	MARK	PATTERN	LANGUAGES	NOTE
+TYPE	LEVEL	HTML	MARK	PATTERN	LANGUAGES	NOTE	-
 header	block	<h1>	=	↩======↩string↩======↩	reST	section title
 header	block	<h1>	=	↩string↩======↩	markdown; reST	section title, header first level
 header	block	<h2>	-	↩string↩------↩↩string↩------↩	markdown; AsciiDoc, reST	header second level
