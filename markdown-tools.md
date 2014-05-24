@@ -46,7 +46,7 @@ Listed below are applications (with user interfaces), which use one or more of t
 - [sofish/pen](http://sofish.github.io/pen/) ([repo](https://github.com/sofish/pen))
 - [Hallo.js](http://hallojs.org/demo/markdown/) ([repo](https://github.com/bergie/hallo))
 - [md-wysiwyg](http://md-wysiwyg.sourceforge.net/) (python; [demo](http://md-wysiwyg.sourceforge.net/cgi-bin/cgi_wysiwyg_test.py/)  — Simple html editor that outputs Markdown.
-
+- [Mathdown](http://mathdown.net/) ([repo](https://github.com/cben/mathdown); [my fork](https://github.com/rhythmus/mathdown)) — Markdown with MathJax (for LaTeX equations) and Firepad (for real-time collaboration); built on CodeMirror.
 
 ## Editing
 
