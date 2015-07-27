@@ -14,6 +14,11 @@
 # - http://pastebin.com/j7Pjq1QT
 # - https://github.com/search?q=markdown
 ---
+Authorea:
+  about: A collaborative typewriter for academia
+  platform: browser
+  website: https://www.authorea.com/
+
 Dillinger:
   platform: browser
   website: http://dillinger.io/
