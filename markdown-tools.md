@@ -1,11 +1,11 @@
 <!--
 Markdown Resources: Varia
 ==========================================
-Copyright 2013–14 © Dr Wouter Soudan @ Rhythmus.be
+Copyright 2013–2016 © Dr Wouter Soudan @ Rhythmus.be
 Licensed under a Creative Commons Attribution 3.0 License.
 
 Document address: https://github.com/rhythmus/markdown-resources/markdown-tools.md
-Last revision: 2014-05-15 12:50 GMT+1
+Last revision: 2016-01-13 17:45 GMT+1
 -->
 
 # Various Markdown Tools
@@ -53,6 +53,14 @@ Listed below are applications (with user interfaces), which use one or more of t
 ### General-purpose Markdown editors
 - Native apps: [listed separately](https://github.com/rhythmus/markdown-resources/blob/master/markdown-editors-nativeApps.yml) (in YAML format).
 - Web apps: [listed separately](https://github.com/rhythmus/markdown-resources/blob/master/markdown-editors-browserBased.yml) (in YAML format).
+### Note-taking
+
+- [Drafts](http://agiletortoise.com/drafts) — iOS note taking app
+
+- [Notal for Android](http://fusionfenix.com/product/notal-android) — “Notal is a simple application that lets you take notes with Markdown style.” 
+
+- [nvPY](https://github.com/cpbotha/nvpy) — “Simplenote syncing note-taking application, inspired by Notational Velocity and ResophNotes, but uglier and cross-platformerer.”
+
 
 ### Editing Markdown tables
 - [Tables Generator](http://www.tablesgenerator.com/markdown_tables) — An online tool to create tables in a graphical interface, and have them exported into (extended) Markdown, using the syntax of GFM and MMD.
