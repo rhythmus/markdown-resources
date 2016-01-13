@@ -35,6 +35,15 @@ Markdown (orginal):
     - horizontal rule
   implementations: Perl
 
+Madoko:
+  type: "all-purpose document authoring (articles, books, manuals, webpages and presentations)"
+  description: "Madoko is a fast javascript Markdown processor written in Koka. It has great support to create beautiful scholarly and industrial documents in both HTML and PDF."
+  website: http://madoko.codeplex.com/
+  spec: http://research.microsoft.com/en-us/um/people/daan/madoko/doc/reference.html
+  supported nodes:
+    - *plain-markdown # plus some _may_ more…
+  implementations: Koka
+
 GitHub Flavored Markdown (GFM):
   type: extension
   website: https://help.github.com/articles/github-flavored-markdown
@@ -56,7 +65,7 @@ Pandoc Markdown:
 MultiMarkdown:
   type: all-purpose document authoring
   website: http://fletcherpenney.net/multimarkdown/
-  specs: http://fletcher.github.io/peg-multimarkdown/mmd-manual.pdf
+  spec: http://fletcher.github.io/peg-multimarkdown/mmd-manual.pdf
   cheat sheet: https://rawgithub.com/fletcher/human-markdown-reference/master/index.html
   supported nodes:
     - *plain-markdown
@@ -110,7 +119,7 @@ Strictdown:
   implementations: Javascript
   website: http://jakwings.github.io/strictdown/Syntax.html
   supported nodes:
-    - *plain-markdown (with a few differences)
+    - *plain-markdown # (with a few differences)
     - table of contents
     - simple code blocks
     - fenced code blocks

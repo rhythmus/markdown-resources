@@ -1,10 +1,10 @@
 # Markdown Resources: Implementations
 # ===================================
-# Copyright 2013–14 © Dr Wouter Soudan @ Rhythmus.be
+# Copyright 2013–2016 © Dr Wouter Soudan @ Rhythmus.be
 # Licensed under a Creative Commons Attribution 3.0 License.
 #
 # Document address: https://github.com/rhythmus/markdown-resources/markdown-implementations.yml
-# Last revision: 2014-05-15 12:50 GMT+1
+# Last revision: 2016-01-13 17:45 GMT+1
 #
 # The following list is far from exhaustive: it’s a (personal,
 # and hence, subjective) curated selection of the “best”
@@ -230,5 +230,18 @@ Strictdown:
   demo: http://jakwings.github.io/strictdown/demo.html
   language: Javascript
   license: MIT
+
+Madoko:
+  description: "Madoko is a fast javascript Markdown processor written in Koka It has great support to create beautiful scholarly and industrial documents in both HTML and PDF."
+  supported dialects:
+     - Madoko
+  developers:
+    - name: Daan Leijen
+      CodePlex: http://www.codeplex.com/site/users/view/daan
+      e-Mail: daan@microsoft.com
+  repo: http://madoko.codeplex.com/
+  website: https://www.madoko.net/
+  language: Javascript Koka
+  license: Apache License 2.0
 
 ...
