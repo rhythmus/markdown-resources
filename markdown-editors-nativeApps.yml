@@ -101,6 +101,12 @@ MarkdownPad Pro:
     - Github Flavored Markdown
     - Markdown Extra
 
+Markor:
+  platform: Android
+  website: https://gsantner.net/project/markor.html
+  repo: https://github.com/gsantner/markor
+  note: Text editor with Markdown and todo.txt support.
+
 Mou:
   platform: OSX
   website: http://mouapp.com
