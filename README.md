@@ -63,6 +63,7 @@ While this entire repository is made up of links to useful Markdown resources, t
 - <http://markdowntutorial.com/>
 - <http://johnmacfarlane.net/babelmark2/faq.html> – Testing and comparison suite for Markdown implementations, by John MacFarlane.
 - <https://www.penflip.com/MmmmJoel/writing-some-things>
+- <https://github.com/tajmone/markdown-guide> — The Markdown Guide for the Perplexed: a collection of reviews, tutorials, documents, and scripts relating to markdown — in all its different flavors — and the existing tools to work with it.
 
 ---
 
