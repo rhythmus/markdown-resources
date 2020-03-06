@@ -141,7 +141,7 @@ UberWriter:
     - Pandoc extensions
 
 Ulysses III:
-  platform: OSX
+  platform: OSX, iOS
   website: http://www.ulyssesapp.com/
 
 WriteDown:
